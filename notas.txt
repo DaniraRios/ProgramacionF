@@ -15,13 +15,13 @@ ZZ- salvar y salir
 :w- salvar pero no salir
 cat- vacia el contenido de un archivo. Ej. cat notas.txt
 less- vacia el contenido de archivos grandes. 
-ls-l- ver los permisos de un archivo
-chmod- muestra los permisos de un archivo y permite cambiarlos
-head- muestra la primera parte de los archivos
-tail- muestra la ultima parte de los archivos
-sort- ordena las lineas de un archivo de texto
-nl- muestra el numero de lineas de un archivo
-cut- remueve secciones de cada linea del archivo
-sed- editor para filtrar y transformar texto
-uniq- reporta u omite lineas repetidas
-tac- vacia e imprime archivos en reversa
+ls-l- ver los permisos de un archivo.
+chmod- muestra los permisos de un archivo y permite cambiarlos.
+head- muestra la primera parte de los archivos.
+tail- muestra la ultima parte de los archivos.
+sort- ordena las lineas de un archivo de texto.
+nl- muestra el numero de lineas de un archivo.
+cut- remueve secciones de cada linea del archivo.
+sed- editor para filtrar y transformar texto.
+uniq- reporta u omite lineas repetidas.
+tac- vacia e imprime archivos en reversa.
