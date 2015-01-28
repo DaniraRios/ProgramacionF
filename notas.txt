@@ -24,4 +24,10 @@ nl- muestra el numero de lineas de un archivo.
 cut- remueve secciones de cada linea del archivo.
 sed- editor para filtrar y transformar texto.
 uniq- reporta u omite lineas repetidas.
-tac- vacia e imprime archivos en reversa. Ej.
+tac- vacia e imprime archivos en reversa. 
+history- muestra los ultimos comandos utilizados.
+reboot- reinicia el equipo.
+halt- apaga el equipo.
+chmod- se utiliza para cambiar los permisos de un archivo.
+clear- limpia la pantalla y coloca el prompt al principio de la misma.
+
