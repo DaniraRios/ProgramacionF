@@ -24,4 +24,4 @@ nl- muestra el numero de lineas de un archivo.
 cut- remueve secciones de cada linea del archivo.
 sed- editor para filtrar y transformar texto.
 uniq- reporta u omite lineas repetidas.
-tac- vacia e imprime archivos en reversa.
+tac- vacia e imprime archivos en reversa. Ej.
