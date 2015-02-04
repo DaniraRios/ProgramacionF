@@ -1,0 +1,56 @@
+% Ejemplo de documento LaTeX
+% Tipo de documento y tamaño de letra
+\documentclass[10pt]{article}
+% Preparando para documento en Español.
+% Para documento en Inglés no hay que hacer esto.
+\usepackage[spanish]{babel}
+\selectlanguage{spanish}
+\usepackage[utf8]{inputenc}
+% EL titulo, autor y fecha del documento
+\title{Tabla de comandos Bash}
+\author{Rios Quijada Danira}
+\date{03 de Febrero de 2015}
+% Aqui comienza el cuerpo del documento
+\begin{document}
+% Construye el título
+\maketitle
+\begin{tabular}{||l|l|l||}
+\hline \hline
+Comando & Descripción & Ejemplo \\
+\hline
+ls & ista del contenido del directorio. & Ej. ls-a \\ \hline
+man & interfaz de los manuales de referencia electronicos. & Ej. man ls \\ \hline
+echo & repite una linea de texto. & Ej. echo -n \\ \hline
+pwd & muestra el nombre del directorio actual. & Ej. pwd -P \\ \hline
+cd & cambiar de locacion. & Ej. cd notas \\ \hline
+file & determina el tipo de archivo. & Ej. file-m \\ \hline
+mkdir &crear un nuevo directorio. & Ej. mkdir notas \\ \hline
+rmdir & eliminar dirctorios completos. & Ej. rmdir notas \\ \hline
+touch & crear archivo en blanco. & Ej. touch notas.txt \\ \hline
+cp & copia archivos y directorios. & Ej. notas.txt notas aaa \\ \hline
+mv & mover o renombrar archivos. & Ej. mv notas.txt aaa \\ \hline
+rm & remover directorios o archivos. & Ej. rm notas.txt \\ \hline
+vi & editor de texto. &  \\ \hline
+ZZ & salvar y salir. & \\ \hline
+:w & salvar pero no salir.& \\ \hline
+cat & vacia el contenido de un archivo. & Ej. cat notas.txt \\ \hline
+less & vacia el contenido de archivos grandes. & \\ \hline
+ls-l & ver los permisos de un archivo. & \\ \hline
+chmod & muestra los permisos de un archivo y permite cambiarlos. & \\ \hline
+head & muestra la primera parte de los archivos. & \\ \hline
+tail & muestra la ultima parte de los archivos. & \\ \hline
+sort & ordena las lineas de un archivo de texto. & \\ \hline
+nl & muestra el numero de lineas de un archivo. & \\ \hline
+cut & remueve secciones de cada linea del archivo. & \\ \hline
+sed & editor para filtrar y transformar texto. & \\ \hline
+uniq & reporta u omite lineas repetidas. & \\ \hline
+tac & vacia e imprime archivos en reversa. & \\ \hline
+history & muestra los ultimos comandos utilizados. & \\ \hline
+reboot & reinicia el equipo. & \\ \hline
+halt & apaga el equipo. & \\ \hline
+chmod & se utiliza para cambiar los permisos de un archivo. & \\ \hline
+clear & limpia la pantalla y coloca el prompt al principio de la misma. & \\ \hline \hline
+\end{tabular}
+
+% Nunca debe faltar esta última linea.
+\end{document}
