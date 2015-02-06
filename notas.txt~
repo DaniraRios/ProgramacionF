@@ -1,13 +1,6 @@
 ls-lista del contenido del directorio. Ej. ls-a
-<<<<<<< HEAD
+
 man- interfaz de los manuales de referencua electronicos. Ej. man ls
-=======
-<<<<<<< HEAD
-man- interfaz de los manuales de referencua electronicos. Ej. man ls
-=======
-man- interfaz de los manuales de referencia electronicos. Ej. man ls
->>>>>>> 412d3af99204eb5f70b2f255c9aa11ff6fd3ca84
->>>>>>> d253df0091f79ee8b5a8df1865c879229cda5d93
 echo- repite una linea de texto. Ej. echo -n
 pwd-muestra el nombre del directorio actual. Ej. pwd -P
 cd-cambiar de locacion. Ej. cd notas
@@ -23,9 +16,6 @@ ZZ- salvar y salir
 :w- salvar pero no salir
 cat- vacia el contenido de un archivo. Ej. cat notas.txt
 less- vacia el contenido de archivos grandes. 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 ls-l- ver los permisos de un archivo
 chmod- muestra los permisos de un archivo y permite cambiarlos
 head- muestra la primera parte de los archivos
@@ -36,8 +26,6 @@ cut- remueve secciones de cada linea del archivo
 sed- editor para filtrar y transformar texto
 uniq- reporta u omite lineas repetidas
 tac- vacia e imprime archivos en reversa
-=======
->>>>>>> d253df0091f79ee8b5a8df1865c879229cda5d93
 ls-l- ver los permisos de un archivo.
 chmod- muestra los permisos de un archivo y permite cambiarlos.
 head- muestra la primera parte de los archivos.
@@ -54,7 +42,4 @@ halt- apaga el equipo.
 chmod- se utiliza para cambiar los permisos de un archivo.
 clear- limpia la pantalla y coloca el prompt al principio de la misma.
 
-<<<<<<< HEAD
-=======
->>>>>>> 412d3af99204eb5f70b2f255c9aa11ff6fd3ca84
->>>>>>> d253df0091f79ee8b5a8df1865c879229cda5d93
+
