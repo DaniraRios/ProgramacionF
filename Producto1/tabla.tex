@@ -14,13 +14,20 @@
 \begin{document}
 % Construye el título
 \maketitle
+\section{Comandos de ayuda}
 \begin{tabular}{||l|l|l||}
 \hline \hline
 Comando & Descripción & Ejemplo \\
 \hline
-ls & Enlista el contenido del directorio. & Ej. ls-a \\ \hline
 man & Interfaz de los manuales de referencia electrónicos. & Ej. man ls \\ \hline
-echo & Repite una línea de texto. & Ej. echo -n \\ \hline
+info & Provee información del comando indicado. & Ej. info man \\ \hline
+-- help & Da ayuda de los comandos. & Ej. --help ls \\ \hline
+\end {tabular}
+\section{Comandos para archivos y directorios}
+\begin{tabular}{||l|l|l||}
+\hline \hline
+Comando & Descripción & Ejemplo \\ \hline
+ls & Lista los archivos y  directorios. & Ej. ls -al \\ \hline
 pwd & Muestra el nombre del directorio actual. & Ej. pwd -P \\ \hline
 cd & Cambiar de locación. & Ej. cd notas \\ \hline
 file & Determina el tipo de archivo. & Ej. file-m \\ \hline
@@ -30,9 +37,6 @@ touch & Crear archivo en blanco. & Ej. touch notas.txt \\ \hline
 cp & Copia archivos y directorios. & Ej. notas notas.txt  \\ \hline
 mv & Mover o renombrar archivos. & Ej. mv notas.txt aaa \\ \hline
 rm & Remover directorios o archivos. & Ej. rm notas.txt \\ \hline
-vi & Editor de texto. &  \\ \hline
-ZZ & Salvar y salir. & \\ \hline
-:w & Salvar pero no salir.& \\ \hline
 cat & Vacia el contenido de un archivo. & Ej. cat notas.txt \\ \hline
 less & Vacia el contenido de archivos grandes. & Ej. less notas.txt \\ \hline
 ls-l & Ver los permisos de un archivo. &  Ej. ls-l notas.txt\\ \hline
@@ -44,13 +48,27 @@ nl & Muestra el número de líneas de un archivo. & Ej. nl notas.txt \\ \hline
 cut & Remueve secciones de cada línea del archivo. & \\ \hline
 sed & Editor para filtrar y transformar texto. & \\ \hline
 uniq & Reporta u omite líneas repetidas. & Ej. uniq notas.txt \\ \hline
-tac & Vacia e imprime archivos en reversa. & Ej. tac notas.txt \\ \hline
-history & Muestra los últimos comandos utilizados. & \\ \hline
-reboot & Reinicia el equipo. & \\ \hline
-halt & Apaga el equipo. & \\ \hline
-chmod & Se utiliza para cambiar los permisos de un archivo. & \\ \hline
-clear & Limpia la pantalla y coloca el prompt al principio de la misma. & \\ \hline \hline
+tac & Vacia e imprime archivos en reversa. & Ej. tac notas.txt \\ \hline \hline
 \end{tabular}
+\section{Comandos para la gestión del sistema}
+\begin {tabular}{||l|l||}
+\hline \hline
+Comando & Descripción  \\ \hline
+exit & Cerrar la sesión actual.  \\ \hline
+history & Muestra los comandos que han sido escritos por el usuario.  \\ \hline
+logout & Salir del sistema.  \\ \hline
+date & Muestra fecha y hora actuales. \\ \hline
+clear & Elimina las líneas escritas en la terminal.\\ \hline 
+echo & Repite líneas. \\ \hline \hline
+\end{tabular}
+\section{Comandos para apagado y reinicio del sistema}
+\begin{tabular}{||l|l||} \hline \hline
+Comando & Descripción \\ \hline
+reboot & Reinicia la máquina. \\ \hline
+shutdown & Apaga el sistema. \\ \hline 
+init 0 & Apaga la máquina. \\ \hline \hline
+\end{tabular}
+
 
 % Nunca debe faltar esta última linea.
 \end{document}
