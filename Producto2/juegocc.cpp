@@ -1,12 +1,22 @@
-#include <dos.h>
-	#include <stdio.h>
-	#include <conio.h>
+#include <iostream>
+	#include <unistd.h>
 	 
 	int main()
 	{
-	   printf("Message 1\n");
-	   sleep(2); 
-	   printf("Message 2 a two seconds after Message 1");
-	   getch();
-	   return 0;
-	}
+	  std::cout <<"Hola! Trataré de adivinar un número.\n";
+	  std::cout<<"Piensa en un número entre 1 y 10\n";
+	  sleep(5);
+	  std::cout<<"Ahora multiplícalo por 9.\n";
+
+          sleep(5);
+          std::cout << "Si el número tiene 2 dígitos, súmalos entre si: Ej. 36 -> 3+6=9. Si tu número tiene un solo dígito, súmale 0.\n";
+
+          sleep(5);
+          std::cout << "Al número resultante súmale 4.\n";
+       
+          sleep(10);
+          std::cout << "Muy bien. El resultado es 13 :D\n";
+
+return(0);
+}
+	
