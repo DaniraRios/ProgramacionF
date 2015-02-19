@@ -1,0 +1,24 @@
+Program esferic_volumen 
+
+   Implicit None 
+
+   Real *8 :: radius , volumen 
+
+  Real *8 :: PI = 4.0 * atan(1.0) 
+
+   Integer :: model_n = 1 
+
+   print * , 'Enter a radius:' 
+
+   read * , radius !
+
+   volumen = (radius * radius * radius * PI * 3)/8
+
+  print * , 'Program number =' , model_n 
+
+  print * , 'Radius =' , radius 
+
+   
+  print * , 'Volumen =' , volumen 
+
+ End Program esferic_volumen
