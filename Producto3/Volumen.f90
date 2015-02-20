@@ -1,26 +1,27 @@
-Program esferic_volumen 
+Program Volumen_altura 
 
    Implicit None 
 
-   Real *8 :: radius , volumen , height 
+   Real *8 :: radio , vol , altura 
 
   Real *8 :: PI = 4.0 * atan(1.0) 
 
-   Integer :: model_n = 1 
+   Integer :: model_n = 2 
 
-   print * , 'Enter a radius:' 
+   print * , 'Enter a radius:'
+read * , radio 
 print * , 'Enter a height:'
 
-   read * , radius 
-read * , height
+    
+read * , altura
 
-   volumen = PI * height * 2 *((radius-height)/3)
+   vol = (PI*(altura*altura))*(radio-(altura/3))
 
   print * , 'Program number =' , model_n 
 
-  print * , 'Radius =' , radius 
-
+  print * , 'Radius =' , radio 
+ print * , 'Height=' , altura
    
-  print * , 'Volumen =' , volumen 
+  print * , 'Volumen =' , vol 
 
- End Program esferic_volumen
+ End Program Volumen_altura
