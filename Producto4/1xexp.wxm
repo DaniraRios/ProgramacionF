@@ -1,0 +1,18 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 13.04.2 ] */
+/* [wxMaxima: input start ] */
+f(x):=(1+x)*exp(x);
+t5(x):=taylor(f(x), x, 0, 5);
+t10(x):=taylor(f(x), x, 0, 10);
+t15(x):=taylor(f(x), x, 0, 15);
+t20(x):=taylor(f(x), x, 0, 20);
+tex(t5(x));
+tex(t10(x));
+tex(t15(x));
+tex(t20(x));
+plot2d ([t5(x), t10(x), t15(x), t20(x), f(x)], [x, -16, 16], [y, -16,16],
+[color, red, green, blue, cyan, orange], [legend, "f", "T5", "T10", "T15", "T20"],
+[axes, true], [xlabel,"x"], [ylabel, "(1+x)*exp(x)"]);
+/* [wxMaxima: input end ] */
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$ 
