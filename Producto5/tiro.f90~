@@ -1,0 +1,92 @@
+!************************************************  
+  !This program plots projectile motion of an object.  
+  !The program requires user input for initial velocity   
+  !and angle of the object.The algorithm uses a time   
+  !step of 0.01 second i.e. it calculates object's  
+  !location in the x and y plane every 0.01 second.  
+  !**********By: Waleed Ishaque, 2013**************  
+  program tiro_parabolico  
+       implicit none  
+       !Defining constants:  
+      real, parameter :: pi = 4.0*atan(1.0) 
+       real :: v, a, t, r, vx, vy, xm, ym  
+       real, parameter :: g = 9.81  
+      real:: x(150),y(150)  
+
+          integer :: i 
+
+
+      !donde g es la aceleracion de la gravedad, pi is "pi"   
+
+      !v es la velocidad inicial del objeto   
+
+       !a es el angulo de tiro, r es el mismo angulo, pero en radianes   
+
+      !t es el tiempo   
+
+      !x and y son cordenadas del objeto durante el tiro    
+
+      !Seek user input   
+
+       write(*,*) 'Dame el ángulo inicial de tiro del proyectil en grados (Real)'   
+
+      read *, a   
+
+       write(*,*) 'Dame la velocidad inicial del proyectil en m/s (Real) '   
+
+       read *, v   
+
+       !Convirtiendo los grados  a radianes   
+
+       r = a*pi/180.0  
+
+       ! Calculando las velocidades en los 2 ejes
+
+       vx=(v)*(cos(r))
+
+       vy=(v)*(sin(r))
+
+       !open .dat file and start writing on it using the algorithm   
+
+       open(1, file='tiro.dat')   
+
+         
+
+       do i=1,100   
+
+            !displacement of object in x and y direction   
+
+           t = (float(i)*0.01)   
+
+            x(i) = vx*t   
+
+            y(i) = (vy*t) - (0.5*g*t*t)   
+
+           !write output in file "proj.dat" for plotting   
+
+            write(1,*) x(i), y(i)   
+
+           !kill the loop when the object hits the ground   
+
+            if (y(i)<0) exit   
+
+       end do   
+
+      close(1)   
+
+      !close file 
+ym = (vy**2)/(19.6)
+xm = x(i)
+if (vx<0) then
+xm = 0
+end if
+!resultados en pantalla
+write(*,*) '^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+write(*,*) 'Un proyectil con una velocidad inicial de',v,'m/s'
+write(*,*) 'y con un ángulo de tiro de',a, 'grados'
+write(*,*)  'Alcanzará una h máxima de',ym, 'metros'
+write(*,*) 'Su alcanze horizontal sera de',xm, 'metros'
+write(*,*) 'y durará en el aire un tiempo de',t,'segundos'
+
+  end program tiro_parabolico 
+

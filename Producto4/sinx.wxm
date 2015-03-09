@@ -1,18 +1,21 @@
-/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
-/* [ Created with wxMaxima version 13.04.2 ] */
-/* [wxMaxima: input start ] */
 f(x):=sin(x);
+
 P1(x):=taylor(f(x), x, 0, 1);
+
 P3(x):=taylor(f(x), x, 0, 3);
+
 P5(x):=taylor(f(x), x, 0, 5);
+
 P7(x):=taylor(f(x), x, 0, 7);
+
+pts([[0,0]]);
+
 tex(P1(x));
+
 tex(P3(x));
+
 tex(P5(x));
+
 tex(P7(x));
-plot2d ([P1(x), P3(x), P5(x), P7(x), f(x)], [x, -%pi, %pi],
-[color, blue, green, red, black, cyan], [legend, "f", "P1", "P3", "P5", "P7"],[axes, true], [xlabel, "x"],
-[ylabel, "sin(x)"]);
-/* [wxMaxima: input end ] */
-/* Maxima can't load/batch files which end with a comment! */
-"Created with wxMaxima"$ 
+
+plot2d ([P1(x), P3(x), P5(x), P7(x), f(x)], [x, -%pi, %pi],[color, blue, green, red, black, cyan], [box,false],[style,[lines,2]],[legend,"pT1(x)","pT3(x)", "pT5(x)", "pT7(x)", "Sen(x)"],[axes, true],[ylabel, "sin(x)"]);

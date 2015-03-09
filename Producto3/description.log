@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.1)  21 FEB 2015 11:29
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.1)  8 MAR 2015 08:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -474,8 +474,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.52 \end{verbatim}
-                    \\
+l.52  \end{verbatim}
+                     \\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -486,8 +486,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.52 \end{verbatim}
-                    \\
+l.52  \end{verbatim}
+                     \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -495,8 +495,8 @@ or  <return>  to continue without it.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.52 \end{verbatim}
-                    \\
+l.52  \end{verbatim}
+                     \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -506,8 +506,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.52 \end{verbatim}
-                    \\
+l.52  \end{verbatim}
+                     \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -517,8 +517,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.52 \end{verbatim}
-                    \\
+l.52  \end{verbatim}
+                     \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -535,16 +535,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--53
 
  []
 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 <A.pdf, id=1, 616.55344pt x 380.17032pt>
 File: A.pdf Graphic file (type pdf)
  <use A.pdf>
-Package pdftex.def Info: A.pdf used on input line 56.
+Package pdftex.def Info: A.pdf used on input line 57.
 (pdftex.def)             Requested size: 246.617pt x 152.06543pt.
 
 ! Misplaced \crcr.
 \endtabular ->\crcr 
                     \egroup \egroup $\egroup 
-l.58 \end{tabular}
+l.59 \end{tabular}
                   
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -555,7 +568,7 @@ might try typing `S' now just to see what is salvageable.
 ! Too many }'s.
 \endtabular ->\crcr \egroup 
                             \egroup $\egroup 
-l.58 \end{tabular}
+l.59 \end{tabular}
                   
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -563,7 +576,7 @@ Such booboos are generally harmless, so keep going.
 ! Too many }'s.
 \endtabular ->\crcr \egroup \egroup 
                                     $\egroup 
-l.58 \end{tabular}
+l.59 \end{tabular}
                   
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -571,7 +584,7 @@ Such booboos are generally harmless, so keep going.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.58 \end{tabular}
+l.59 \end{tabular}
                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -586,7 +599,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.58 \end{tabular}
+l.59 \end{tabular}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -595,7 +608,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.58 \end{tabular}
+l.59 \end{tabular}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -606,7 +619,7 @@ my insertion and my current dilemma will both disappear.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.58 \end{tabular}
+l.59 \end{tabular}
                   
 Things are pretty mixed up, but I think the worst is over.
 
@@ -620,7 +633,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \begin{verbatim}
+l.71 \begin{verbatim}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -632,7 +645,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \begin{verbatim}
+l.71 \begin{verbatim}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -644,7 +657,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \begin{verbatim}
+l.71 \begin{verbatim}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -652,7 +665,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.70 \begin{verbatim}
+l.71 \begin{verbatim}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -663,7 +676,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.70 \begin{verbatim}
+l.71 \begin{verbatim}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -674,7 +687,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.70 \begin{verbatim}
+l.71 \begin{verbatim}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -685,14 +698,14 @@ my insertion and my current dilemma will both disappear.
 ! Missing \cr inserted.
 <inserted text> 
                 \cr 
-l.70 \begin{verbatim}
+l.71 \begin{verbatim}
                      
 I'm guessing that you meant to end an alignment here.
 
 ! Missing { inserted.
 <inserted text> 
                 {
-l.70 \begin{verbatim}
+l.71 \begin{verbatim}
                      
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -705,20 +718,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.98 \end{verbatim}
-                    \\
+l.99  \end{verbatim}
+                     \\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-! LaTeX Error: \begin{tabular} on input line 69 ended by \end{verbatim}.
+! LaTeX Error: \begin{tabular} on input line 70 ended by \end{verbatim}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.98 \end{verbatim}
-                    \\
+l.99  \end{verbatim}
+                     \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -726,8 +739,8 @@ or  <return>  to continue without it.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.98 \end{verbatim}
-                    \\
+l.99  \end{verbatim}
+                     \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -737,8 +750,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.98 \end{verbatim}
-                    \\
+l.99  \end{verbatim}
+                     \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -748,24 +761,47 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.98 \end{verbatim}
-                    \\
+l.99  \end{verbatim}
+                     \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 70--100
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--100
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 <V.pdf, id=21, 616.55344pt x 380.17032pt>
 File: V.pdf Graphic file (type pdf)
  <use V.pdf>
-Package pdftex.def Info: V.pdf used on input line 101.
+Package pdftex.def Info: V.pdf used on input line 103.
 (pdftex.def)             Requested size: 246.617pt x 152.06543pt.
 
 ! Misplaced \crcr.
 \endtabular ->\crcr 
                     \egroup \egroup $\egroup 
-l.103 \end{tabular}
+l.105 \end{tabular}
                    
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -776,7 +812,7 @@ might try typing `S' now just to see what is salvageable.
 ! Too many }'s.
 \endtabular ->\crcr \egroup 
                             \egroup $\egroup 
-l.103 \end{tabular}
+l.105 \end{tabular}
                    
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -784,7 +820,7 @@ Such booboos are generally harmless, so keep going.
 ! Too many }'s.
 \endtabular ->\crcr \egroup \egroup 
                                     $\egroup 
-l.103 \end{tabular}
+l.105 \end{tabular}
                    
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -792,7 +828,7 @@ Such booboos are generally harmless, so keep going.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.103 \end{tabular}
+l.105 \end{tabular}
                    
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -807,7 +843,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103 \end{tabular}
+l.105 \end{tabular}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -816,7 +852,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.103 \end{tabular}
+l.105 \end{tabular}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -827,23 +863,18 @@ my insertion and my current dilemma will both disappear.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.103 \end{tabular}
+l.105 \end{tabular}
                    
 Things are pretty mixed up, but I think the worst is over.
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 69--104
-[][] 
- []
-
-
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.114 \begin{verbatim}
+l.117 \begin{verbatim}
                       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -855,7 +886,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.114 \begin{verbatim}
+l.117 \begin{verbatim}
                       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -867,7 +898,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.114 \begin{verbatim}
+l.117 \begin{verbatim}
                       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -875,7 +906,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.114 \begin{verbatim}
+l.117 \begin{verbatim}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -886,7 +917,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.114 \begin{verbatim}
+l.117 \begin{verbatim}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -897,7 +928,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.114 \begin{verbatim}
+l.117 \begin{verbatim}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -908,14 +939,14 @@ my insertion and my current dilemma will both disappear.
 ! Missing \cr inserted.
 <inserted text> 
                 \cr 
-l.114 \begin{verbatim}
+l.117 \begin{verbatim}
                       
 I'm guessing that you meant to end an alignment here.
 
 ! Missing { inserted.
 <inserted text> 
                 {
-l.114 \begin{verbatim}
+l.117 \begin{verbatim}
                       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -928,8 +959,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -941,8 +972,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -954,8 +985,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -967,8 +998,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -980,8 +1011,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -993,8 +1024,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1006,8 +1037,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1019,8 +1050,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1032,8 +1063,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1045,8 +1076,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1058,8 +1089,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1071,8 +1102,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1084,8 +1115,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1097,8 +1128,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1110,8 +1141,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1123,8 +1154,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1136,8 +1167,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1149,8 +1180,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1162,8 +1193,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1175,8 +1206,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1188,8 +1219,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1201,8 +1232,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1214,8 +1245,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1227,8 +1258,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1240,8 +1271,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1253,8 +1284,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1266,8 +1297,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1279,8 +1310,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1292,8 +1323,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1305,8 +1336,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1318,8 +1349,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1331,8 +1362,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1344,20 +1375,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-! LaTeX Error: \begin{tabular} on input line 113 ended by \end{verbatim}.
+! LaTeX Error: \begin{tabular} on input line 116 ended by \end{verbatim}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1365,8 +1396,8 @@ or  <return>  to continue without it.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1376,8 +1407,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1387,103 +1418,121 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.148 \end{verbatim}
-                     \\
+l.151  \end{verbatim}
+                      \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-<L.pdf, id=22, 616.55344pt x 380.17032pt>
-File: L.pdf Graphic file (type pdf)
- <use L.pdf>
-Package pdftex.def Info: L.pdf used on input line 151.
-(pdftex.def)             Requested size: 246.617pt x 152.06543pt.
 
-! Misplaced \crcr.
-\endtabular ->\crcr 
-                    \egroup \egroup $\egroup 
-l.153 \end{tabular}
-                   
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Too many }'s.
-\endtabular ->\crcr \egroup 
-                            \egroup $\egroup 
-l.153 \end{tabular}
-                   
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-! Too many }'s.
-\endtabular ->\crcr \egroup \egroup 
-                                    $\egroup 
-l.153 \end{tabular}
-                   
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.153 \end{tabular}
-                   
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: \begin{document} ended by \end{tabular}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.153 \end{tabular}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.153 \end{tabular}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.153 \end{tabular}
-                   
-Things are pretty mixed up, but I think the worst is over.
-
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 113--154
+Overfull \hbox (15.0pt too wide) in paragraph at lines 116--152
 [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--152
+
  []
 
 [2 <./V.pdf>]
 
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<L.pdf, id=34, 616.55344pt x 380.17032pt>
+File: L.pdf Graphic file (type pdf)
+ <use L.pdf>
+Package pdftex.def Info: L.pdf used on input line 155.
+(pdftex.def)             Requested size: 246.617pt x 152.06543pt.
+
+! Misplaced \crcr.
+\endtabular ->\crcr 
+                    \egroup \egroup $\egroup 
+l.157 \end{tabular}
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Too many }'s.
+\endtabular ->\crcr \egroup 
+                            \egroup $\egroup 
+l.157 \end{tabular}
+                   
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! Too many }'s.
+\endtabular ->\crcr \egroup \egroup 
+                                    $\egroup 
+l.157 \end{tabular}
+                   
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.157 \end{tabular}
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{document} ended by \end{tabular}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.157 \end{tabular}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.157 \end{tabular}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.157 \end{tabular}
+                   
+Things are pretty mixed up, but I think the worst is over.
+
+
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.164 \begin{verbatim}
+l.169 \begin{verbatim}
                       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1495,7 +1544,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.164 \begin{verbatim}
+l.169 \begin{verbatim}
                       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1507,7 +1556,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.164 \begin{verbatim}
+l.169 \begin{verbatim}
                       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1515,7 +1564,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.164 \begin{verbatim}
+l.169 \begin{verbatim}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1526,7 +1575,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.164 \begin{verbatim}
+l.169 \begin{verbatim}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1537,7 +1586,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.164 \begin{verbatim}
+l.169 \begin{verbatim}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1548,14 +1597,14 @@ my insertion and my current dilemma will both disappear.
 ! Missing \cr inserted.
 <inserted text> 
                 \cr 
-l.164 \begin{verbatim}
+l.169 \begin{verbatim}
                       
 I'm guessing that you meant to end an alignment here.
 
 ! Missing { inserted.
 <inserted text> 
                 {
-l.164 \begin{verbatim}
+l.169 \begin{verbatim}
                       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1568,8 +1617,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1581,8 +1630,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1594,8 +1643,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1607,8 +1656,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1620,8 +1669,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1633,8 +1682,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1646,8 +1695,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1659,8 +1708,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1672,8 +1721,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1685,8 +1734,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1698,8 +1747,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1711,8 +1760,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1724,8 +1773,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1737,8 +1786,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1750,8 +1799,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1763,8 +1812,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1776,8 +1825,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1789,8 +1838,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1802,8 +1851,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1815,8 +1864,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1828,8 +1877,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1841,8 +1890,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1854,8 +1903,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1867,8 +1916,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1880,8 +1929,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1893,8 +1942,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1906,8 +1955,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1919,8 +1968,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1932,8 +1981,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1945,8 +1994,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1958,8 +2007,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1971,8 +2020,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1984,8 +2033,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1997,8 +2046,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -2010,8 +2059,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -2023,8 +2072,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -2036,8 +2085,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -2049,8 +2098,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -2062,8 +2111,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -2075,8 +2124,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -2088,8 +2137,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -2101,14 +2150,14 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (48.74657pt too wide) in paragraph at lines 182--182
+Overfull \hbox (48.74657pt too wide) in paragraph at lines 187--187
 []  \OT1/cmtt/m/n/10 Real *8 :: i, p, x = -1.0 , y = 0, z = 2.0, w ! Declare va
 riables x, y, z[] 
  []
@@ -2120,20 +2169,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-! LaTeX Error: \begin{tabular} on input line 163 ended by \end{verbatim}.
+! LaTeX Error: \begin{tabular} on input line 168 ended by \end{verbatim}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -2141,8 +2190,8 @@ or  <return>  to continue without it.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -2152,8 +2201,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -2163,651 +2212,48 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.182 \end{verbatim}
-                     \\
+l.187  \end{verbatim}
+                      \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-<M.pdf, id=35, 616.55344pt x 380.17032pt>
-File: M.pdf Graphic file (type pdf)
- <use M.pdf>
-Package pdftex.def Info: M.pdf used on input line 185.
-(pdftex.def)             Requested size: 246.617pt x 152.06543pt.
 
-! Misplaced \crcr.
-\endtabular ->\crcr 
-                    \egroup \egroup $\egroup 
-l.187 \end{tabular}
-                   
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Too many }'s.
-\endtabular ->\crcr \egroup 
-                            \egroup $\egroup 
-l.187 \end{tabular}
-                   
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-! Too many }'s.
-\endtabular ->\crcr \egroup \egroup 
-                                    $\egroup 
-l.187 \end{tabular}
-                   
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.187 \end{tabular}
-                   
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: \begin{document} ended by \end{tabular}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.187 \end{tabular}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.187 \end{tabular}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.187 \end{tabular}
-                   
-Things are pretty mixed up, but I think the worst is over.
-
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 163--188
+Overfull \hbox (15.0pt too wide) in paragraph at lines 168--188
 [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--188
+
  []
 
 [3 <./L.pdf>]
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+! LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.198 \begin{verbatim}
-                      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.198 \begin{verbatim}
-                      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.198 \begin{verbatim}
-                      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.198 \begin{verbatim}
-                      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.198 \begin{verbatim}
-                      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.198 \begin{verbatim}
-                      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.198 \begin{verbatim}
-                      
-I'm guessing that you meant to end an alignment here.
-
-! Missing { inserted.
-<inserted text> 
-                {
-l.198 \begin{verbatim}
-                      
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
+l.189 
+      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: \begin{tabular} on input line 197 ended by \end{verbatim}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.226 \end{verbatim}
-                     \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.226 \end{verbatim}
-                     \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.226 \end{verbatim}
-                     \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-<F.pdf, id=48, 616.55344pt x 380.17032pt>
-File: F.pdf Graphic file (type pdf)
- <use F.pdf>
-Package pdftex.def Info: F.pdf used on input line 229.
+<M.pdf, id=47, 616.55344pt x 380.17032pt>
+File: M.pdf Graphic file (type pdf)
+ <use M.pdf>
+Package pdftex.def Info: M.pdf used on input line 191.
 (pdftex.def)             Requested size: 246.617pt x 152.06543pt.
 
 ! Misplaced \crcr.
 \endtabular ->\crcr 
                     \egroup \egroup $\egroup 
-l.231 \end{tabular}
+l.193 \end{tabular}
                    
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -2818,7 +2264,7 @@ might try typing `S' now just to see what is salvageable.
 ! Too many }'s.
 \endtabular ->\crcr \egroup 
                             \egroup $\egroup 
-l.231 \end{tabular}
+l.193 \end{tabular}
                    
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -2826,7 +2272,7 @@ Such booboos are generally harmless, so keep going.
 ! Too many }'s.
 \endtabular ->\crcr \egroup \egroup 
                                     $\egroup 
-l.231 \end{tabular}
+l.193 \end{tabular}
                    
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -2834,7 +2280,7 @@ Such booboos are generally harmless, so keep going.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.231 \end{tabular}
+l.193 \end{tabular}
                    
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2849,7 +2295,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.231 \end{tabular}
+l.193 \end{tabular}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2858,7 +2304,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.231 \end{tabular}
+l.193 \end{tabular}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2869,20 +2315,654 @@ my insertion and my current dilemma will both disappear.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.231 \end{tabular}
+l.193 \end{tabular}
                    
 Things are pretty mixed up, but I think the worst is over.
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 197--232
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.205 \begin{verbatim}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.205 \begin{verbatim}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.205 \begin{verbatim}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.205 \begin{verbatim}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.205 \begin{verbatim}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.205 \begin{verbatim}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.205 \begin{verbatim}
+                      
+I'm guessing that you meant to end an alignment here.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.205 \begin{verbatim}
+                      
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:− not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{tabular} on input line 204 ended by \end{verbatim}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233  \end{verbatim}
+                      \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.233  \end{verbatim}
+                      \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.233  \end{verbatim}
+                      \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.233  \end{verbatim}
+                      \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 204--234
 [][] 
  []
 
-[4 <./M.pdf> <./F.pdf
 
-pdfTeX warning: pdflatex (file ./F.pdf): PDF inclusion: multiple pdfs with page
- group included in a single page
->]
+Underfull \hbox (badness 10000) in paragraph at lines 204--234
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.235 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<F.pdf, id=48, 616.55344pt x 380.17032pt>
+File: F.pdf Graphic file (type pdf)
+ <use F.pdf>
+Package pdftex.def Info: F.pdf used on input line 237.
+(pdftex.def)             Requested size: 246.617pt x 152.06543pt.
+ [4 <./M.pdf>]
+! Misplaced \crcr.
+\endtabular ->\crcr 
+                    \egroup \egroup $\egroup 
+l.239 \end{tabular}
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Too many }'s.
+\endtabular ->\crcr \egroup 
+                            \egroup $\egroup 
+l.239 \end{tabular}
+                   
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! Too many }'s.
+\endtabular ->\crcr \egroup \egroup 
+                                    $\egroup 
+l.239 \end{tabular}
+                   
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.239 \end{tabular}
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{document} ended by \end{tabular}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.239 \end{tabular}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.239 \end{tabular}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.239 \end{tabular}
+                   
+Things are pretty mixed up, but I think the worst is over.
+
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -2890,7 +2970,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.241  \begin{verbatim}
+l.250  \begin{verbatim}
                        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2902,7 +2982,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.241  \begin{verbatim}
+l.250  \begin{verbatim}
                        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2914,7 +2994,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.241  \begin{verbatim}
+l.250  \begin{verbatim}
                        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2922,7 +3002,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.241  \begin{verbatim}
+l.250  \begin{verbatim}
                        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2933,7 +3013,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.241  \begin{verbatim}
+l.250  \begin{verbatim}
                        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2944,7 +3024,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.241  \begin{verbatim}
+l.250  \begin{verbatim}
                        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2955,21 +3035,21 @@ my insertion and my current dilemma will both disappear.
 ! Missing \cr inserted.
 <inserted text> 
                 \cr 
-l.241  \begin{verbatim}
+l.250  \begin{verbatim}
                        
 I'm guessing that you meant to end an alignment here.
 
 ! Missing { inserted.
 <inserted text> 
                 {
-l.241  \begin{verbatim}
+l.250  \begin{verbatim}
                        
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
 
-Overfull \hbox (6.74693pt too wide) in paragraph at lines 271--271
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 280--280
 [] \OT1/cmtt/m/n/10 ! Subroutine . f90 : Demonstrates the call for a simple sub
 routine[] 
  []
@@ -2981,7 +3061,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2994,7 +3074,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3007,7 +3087,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3020,7 +3100,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3033,7 +3113,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3046,7 +3126,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3059,7 +3139,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3072,7 +3152,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3085,7 +3165,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3098,7 +3178,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3111,7 +3191,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3124,7 +3204,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3137,7 +3217,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3150,7 +3230,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3163,7 +3243,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3176,7 +3256,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3189,7 +3269,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3202,7 +3282,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3215,7 +3295,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3228,7 +3308,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3241,7 +3321,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3254,7 +3334,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3267,7 +3347,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3280,7 +3360,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3293,7 +3373,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3306,7 +3386,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3319,7 +3399,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3332,7 +3412,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3345,7 +3425,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3358,7 +3438,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3371,7 +3451,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3384,7 +3464,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3397,7 +3477,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3410,7 +3490,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3423,7 +3503,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3436,7 +3516,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3449,7 +3529,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3462,7 +3542,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3475,7 +3555,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3488,7 +3568,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3501,7 +3581,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3514,7 +3594,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3527,7 +3607,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3540,7 +3620,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3553,7 +3633,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3566,19 +3646,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-! LaTeX Error: \begin{tabular} on input line 240 ended by \end{verbatim}.
+! LaTeX Error: \begin{tabular} on input line 249 ended by \end{verbatim}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3587,7 +3667,7 @@ or  <return>  to continue without it.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3598,7 +3678,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3609,7 +3689,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.271  \end{verbatim}
+l.280  \end{verbatim}
                       \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3617,16 +3697,39 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-<S.pdf, id=69, 616.55344pt x 380.17032pt>
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 249--281
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--281
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.282 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<S.pdf, id=61, 616.55344pt x 380.17032pt>
 File: S.pdf Graphic file (type pdf)
  <use S.pdf>
-Package pdftex.def Info: S.pdf used on input line 274.
+Package pdftex.def Info: S.pdf used on input line 284.
 (pdftex.def)             Requested size: 246.617pt x 152.06543pt.
-
+ [5 <./F.pdf>]
 ! Misplaced \crcr.
 \endtabular ->\crcr 
                     \egroup \egroup $\egroup 
-l.276 \end{tabular}
+l.286 \end{tabular}
                    
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -3637,7 +3740,7 @@ might try typing `S' now just to see what is salvageable.
 ! Too many }'s.
 \endtabular ->\crcr \egroup 
                             \egroup $\egroup 
-l.276 \end{tabular}
+l.286 \end{tabular}
                    
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -3645,7 +3748,7 @@ Such booboos are generally harmless, so keep going.
 ! Too many }'s.
 \endtabular ->\crcr \egroup \egroup 
                                     $\egroup 
-l.276 \end{tabular}
+l.286 \end{tabular}
                    
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -3653,7 +3756,7 @@ Such booboos are generally harmless, so keep going.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.276 \end{tabular}
+l.286 \end{tabular}
                    
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3668,7 +3771,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.276 \end{tabular}
+l.286 \end{tabular}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3677,7 +3780,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.276 \end{tabular}
+l.286 \end{tabular}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3688,16 +3791,11 @@ my insertion and my current dilemma will both disappear.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.276 \end{tabular}
+l.286 \end{tabular}
                    
 Things are pretty mixed up, but I think the worst is over.
 
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 240--277
-[][] 
- []
-
-[5 <./S.pdf>] (./description.aux
+[6 <./S.pdf>] (./description.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 LaTeX Info: Redefining \. on input line 10.
@@ -3706,7 +3804,7 @@ LaTeX Info: Redefining \% on input line 10.
 Here is how much of TeX's memory you used:
  2434 strings out of 494966
  32140 string characters out of 6179560
- 97236 words of memory out of 5000000
+ 98236 words of memory out of 5000000
  5631 multiletter control sequences out of 15000+600000
  7755 words of font info for 28 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
@@ -3716,10 +3814,10 @@ sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on description.pdf (5 pages, 243174 bytes).
+Output written on description.pdf (6 pages, 243899 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 103 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

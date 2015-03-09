@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.1)  8 MAR 2015 11:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.1)  8 MAR 2015 17:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**reportegraficando.tex
-(./reportegraficando.tex
+**proyectiles.tex
+(./proyectiles.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 5 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -294,8 +294,8 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-No file reportegraficando.aux.
-\openout1 = `reportegraficando.aux'.
+No file proyectiles.aux.
+\openout1 = `proyectiles.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
@@ -379,9 +379,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 27.
+(Font)              <7> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 27.
+(Font)              <5> on input line 24.
 
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
@@ -390,7 +390,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.28 \begin{verbatim}
+l.34 \begin{verbatim}
                      
 ? return
 OK, entering \nonstopmode...
@@ -401,7 +401,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.28 \begin{verbatim}
+l.34 \begin{verbatim}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -413,7 +413,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.28 \begin{verbatim}
+l.34 \begin{verbatim}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -421,7 +421,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.28 \begin{verbatim}
+l.34 \begin{verbatim}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -432,7 +432,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.28 \begin{verbatim}
+l.34 \begin{verbatim}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -443,7 +443,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.28 \begin{verbatim}
+l.34 \begin{verbatim}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -454,29 +454,47 @@ my insertion and my current dilemma will both disappear.
 ! Missing \cr inserted.
 <inserted text> 
                 \cr 
-l.28 \begin{verbatim}
+l.34 \begin{verbatim}
                      
 I'm guessing that you meant to end an alignment here.
 
 ! Missing { inserted.
 <inserted text> 
                 {
-l.28 \begin{verbatim}
+l.34 \begin{verbatim}
                      
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
 
-Overfull \hbox (17.24684pt too wide) in paragraph at lines 53--53
-[]\OT1/cmtt/m/n/10 [color, blue, green, red, black, cyan], [box,false],[style,[
-lines,2]][] 
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 128--128
+[]       \OT1/cmtt/m/n/10 !a es el angulo de tiro, r es el mismo angulo, pero e
+n radianes[] 
  []
 
 
-Overfull \hbox (27.74675pt too wide) in paragraph at lines 53--53
-[]\OT1/cmtt/m/n/10 ,[legend,"pT1(x)","pT3(x)", "pT5(x)", "pT7(x)", "Sen(x)"],[a
-xes, true],[] 
+Overfull \hbox (80.24629pt too wide) in paragraph at lines 128--128
+[]       \OT1/cmtt/m/n/10 write(*,*) 'Dame el ^^Sangulo inicial de tiro del pro
+yectil en grados (Real)'[] 
+ []
+
+
+Overfull \hbox (43.49661pt too wide) in paragraph at lines 128--128
+[]       \OT1/cmtt/m/n/10 write(*,*) 'Dame la velocidad inicial del proyectil e
+n m/s (Real) '[] 
+ []
+
+
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 128--128
+[]       \OT1/cmtt/m/n/10 !open .dat file and start writing on it using the alg
+orithm[] 
+ []
+
+
+Overfull \hbox (53.99652pt too wide) in paragraph at lines 128--128
+[]\OT1/cmtt/m/n/10 write(*,*) '^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^'[] 
  []
 
 
@@ -486,20 +504,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 \end{verbatim}
-                    \\
+l.128 \end{verbatim}
+                     \\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-! LaTeX Error: \begin{tabular} on input line 27 ended by \end{verbatim}.
+! LaTeX Error: \begin{tabular} on input line 31 ended by \end{verbatim}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 \end{verbatim}
-                    \\
+l.128 \end{verbatim}
+                     \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -507,8 +525,8 @@ or  <return>  to continue without it.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.53 \end{verbatim}
-                    \\
+l.128 \end{verbatim}
+                     \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -518,8 +536,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.53 \end{verbatim}
-                    \\
+l.128 \end{verbatim}
+                     \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -529,308 +547,18 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.53 \end{verbatim}
-                    \\
+l.128 \end{verbatim}
+                     \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 27--54
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--54
-
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.55 \begin
-           {center}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<sinx.png, id=1, 642.4pt x 481.8pt>
-File: sinx.png Graphic file (type png)
- <use sinx.png>
-Package pdftex.def Info: sinx.png used on input line 57.
-(pdftex.def)             Requested size: 256.95544pt x 192.71658pt.
- [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 ! Misplaced \crcr.
 \endtabular ->\crcr 
                     \egroup \egroup $\egroup 
-l.59 \end{tabular}
-                  
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Too many }'s.
-\endtabular ->\crcr \egroup 
-                            \egroup $\egroup 
-l.59 \end{tabular}
-                  
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-! Too many }'s.
-\endtabular ->\crcr \egroup \egroup 
-                                    $\egroup 
-l.59 \end{tabular}
-                  
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.59 \end{tabular}
-                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: \begin{document} ended by \end{tabular}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.59 \end{tabular}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.59 \end{tabular}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.59 \end{tabular}
-                  
-Things are pretty mixed up, but I think the worst is over.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.71 \begin{verbatim}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.71 \begin{verbatim}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.71 \begin{verbatim}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.71 \begin{verbatim}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.71 \begin{verbatim}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.71 \begin{verbatim}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.71 \begin{verbatim}
-                     
-I'm guessing that you meant to end an alignment here.
-
-! Missing { inserted.
-<inserted text> 
-                {
-l.71 \begin{verbatim}
-                     
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-
-Overfull \hbox (32.9967pt too wide) in paragraph at lines 95--95
-[]\OT1/cmtt/m/n/10 plot2d ([T4(x), T7(x), T11(x), T16(x), f(x)], [x, -1.5, 1.5]
-, [y, -4,2],[] 
- []
-
-
-Overfull \hbox (22.4968pt too wide) in paragraph at lines 95--95
-[]\OT1/cmtt/m/n/10 [style,[lines,2]],[color, red, green, blue, cyan, orange],[b
-ox,false],[] 
- []
-
-
-Overfull \hbox (53.99652pt too wide) in paragraph at lines 95--95
-[]\OT1/cmtt/m/n/10 [legend, "pT4(x)", "pT7(x)", "pT11(x)", "pT16(x)", "log(1+x)
-"],[axes, true],[] 
- []
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.95 \end{verbatim}
-                    \\
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: \begin{tabular} on input line 70 ended by \end{verbatim}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.95 \end{verbatim}
-                    \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.95 \end{verbatim}
-                    \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.95 \end{verbatim}
-                    \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.95 \end{verbatim}
-                    \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 70--96
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--96
-
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.97 \begin
-           {center}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<log1.png, id=12, 642.4pt x 481.8pt>
-File: log1.png Graphic file (type png)
- <use log1.png>
-Package pdftex.def Info: log1.png used on input line 99.
-(pdftex.def)             Requested size: 256.95544pt x 192.71658pt.
- [2 <./sinx.png>]
-! Misplaced \crcr.
-\endtabular ->\crcr 
-                    \egroup \egroup $\egroup 
-l.101 \end{tabular}
+l.129 \end{tabular}
                    
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -841,7 +569,7 @@ might try typing `S' now just to see what is salvageable.
 ! Too many }'s.
 \endtabular ->\crcr \egroup 
                             \egroup $\egroup 
-l.101 \end{tabular}
+l.129 \end{tabular}
                    
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -849,7 +577,7 @@ Such booboos are generally harmless, so keep going.
 ! Too many }'s.
 \endtabular ->\crcr \egroup \egroup 
                                     $\egroup 
-l.101 \end{tabular}
+l.129 \end{tabular}
                    
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -857,7 +585,7 @@ Such booboos are generally harmless, so keep going.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.101 \end{tabular}
+l.129 \end{tabular}
                    
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -872,7 +600,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 \end{tabular}
+l.129 \end{tabular}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -881,7 +609,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.101 \end{tabular}
+l.129 \end{tabular}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -892,18 +620,55 @@ my insertion and my current dilemma will both disappear.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.101 \end{tabular}
+l.129 \end{tabular}
                    
 Things are pretty mixed up, but I think the worst is over.
 
 
+Overfull \hbox (15.0pt too wide) in paragraph at lines 31--130
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--130
+
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+<tiro90.JPG, id=17, 545.78906pt x 349.305pt>
+File: tiro90.JPG Graphic file (type jpg)
+ <use tiro90.JPG>
+Package pdftex.def Info: tiro90.JPG used on input line 136.
+(pdftex.def)             Requested size: 272.89386pt x 174.65207pt.
+
+<tiro0.JPG, id=18, 545.03625pt x 350.05782pt>
+File: tiro0.JPG Graphic file (type jpg)
+ <use tiro0.JPG>
+Package pdftex.def Info: tiro0.JPG used on input line 141.
+(pdftex.def)             Requested size: 272.51746pt x 175.02847pt.
+
+<tiro60.JPG, id=19, 548.0475pt x 350.81062pt>
+File: tiro60.JPG Graphic file (type jpg)
+ <use tiro60.JPG>
+Package pdftex.def Info: tiro60.JPG used on input line 146.
+(pdftex.def)             Requested size: 274.02307pt x 175.40488pt.
+ [3 <./tiro90.JPG> <./tiro0.JPG>] <tiro30.JPG, id=24, 547.2947pt x 349.305pt>
+File: tiro30.JPG Graphic file (type jpg)
+ <use tiro30.JPG>
+Package pdftex.def Info: tiro30.JPG used on input line 151.
+(pdftex.def)             Requested size: 273.64667pt x 174.65207pt.
+
+[4 <./tiro60.JPG> <./tiro30.JPG>]
+
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.112 \begin{verbatim}
+l.166 \begin{verbatim}
                       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -915,7 +680,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.112 \begin{verbatim}
+l.166 \begin{verbatim}
                       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -927,7 +692,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.112 \begin{verbatim}
+l.166 \begin{verbatim}
                       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -935,7 +700,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.112 \begin{verbatim}
+l.166 \begin{verbatim}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -946,7 +711,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.112 \begin{verbatim}
+l.166 \begin{verbatim}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -957,7 +722,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.112 \begin{verbatim}
+l.166 \begin{verbatim}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -968,36 +733,18 @@ my insertion and my current dilemma will both disappear.
 ! Missing \cr inserted.
 <inserted text> 
                 \cr 
-l.112 \begin{verbatim}
+l.166 \begin{verbatim}
                       
 I'm guessing that you meant to end an alignment here.
 
 ! Missing { inserted.
 <inserted text> 
                 {
-l.112 \begin{verbatim}
+l.166 \begin{verbatim}
                       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
-
-
-Overfull \hbox (80.24629pt too wide) in paragraph at lines 126--126
-[]\OT1/cmtt/m/n/10 plot2d ([f(x), t3(x), t6(x), t9(x), t12(x)], [x, -0.5*%pi, 0
-.5*%pi], [y, -2,0.5],[] 
- []
-
-
-Overfull \hbox (22.4968pt too wide) in paragraph at lines 126--126
-[]\OT1/cmtt/m/n/10 [color, green, blue, red, cyan, orange],[box,false],[style,[
-lines,2]],[] 
- []
-
-
-Overfull \hbox (43.49661pt too wide) in paragraph at lines 126--126
-[]\OT1/cmtt/m/n/10 [legend, "f(x)", "pT3", "pT6", "pT9", "pT12"], [axes, true],
- [xlabel,"x"],[] 
- []
 
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
@@ -1006,20 +753,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.126 \end{verbatim}
-                     \\
+l.170 \end{verbatim}
+                    \\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-! LaTeX Error: \begin{tabular} on input line 111 ended by \end{verbatim}.
+! LaTeX Error: \begin{tabular} on input line 165 ended by \end{verbatim}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.126 \end{verbatim}
-                     \\
+l.170 \end{verbatim}
+                    \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1027,8 +774,8 @@ or  <return>  to continue without it.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.126 \end{verbatim}
-                     \\
+l.170 \end{verbatim}
+                    \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1038,8 +785,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.126 \end{verbatim}
-                     \\
+l.170 \end{verbatim}
+                    \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1049,47 +796,18 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.126 \end{verbatim}
-                     \\
+l.170 \end{verbatim}
+                    \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 111--127
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--127
-
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.128 \begin
-            {center}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<logcos.png, id=17, 642.4pt x 481.8pt>
-File: logcos.png Graphic file (type png)
- <use logcos.png>
-Package pdftex.def Info: logcos.png used on input line 130.
-(pdftex.def)             Requested size: 256.95544pt x 192.71658pt.
- [3 <./log1.png>]
 ! Misplaced \crcr.
 \endtabular ->\crcr 
                     \egroup \egroup $\egroup 
-l.132 \end{tabular}
+l.172 \end{tabular}
                    
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -1100,7 +818,7 @@ might try typing `S' now just to see what is salvageable.
 ! Too many }'s.
 \endtabular ->\crcr \egroup 
                             \egroup $\egroup 
-l.132 \end{tabular}
+l.172 \end{tabular}
                    
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -1108,7 +826,7 @@ Such booboos are generally harmless, so keep going.
 ! Too many }'s.
 \endtabular ->\crcr \egroup \egroup 
                                     $\egroup 
-l.132 \end{tabular}
+l.172 \end{tabular}
                    
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -1116,7 +834,7 @@ Such booboos are generally harmless, so keep going.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.132 \end{tabular}
+l.172 \end{tabular}
                    
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1131,7 +849,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.132 \end{tabular}
+l.172 \end{tabular}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1140,7 +858,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.132 \end{tabular}
+l.172 \end{tabular}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1151,533 +869,64 @@ my insertion and my current dilemma will both disappear.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.132 \end{tabular}
+l.172 \end{tabular}
                    
 Things are pretty mixed up, but I think the worst is over.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.143 \begin{verbatim}
-                      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.143 \begin{verbatim}
-                      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.143 \begin{verbatim}
-                      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.143 \begin{verbatim}
-                      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.143 \begin{verbatim}
-                      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.143 \begin{verbatim}
-                      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.143 \begin{verbatim}
-                      
-I'm guessing that you meant to end an alignment here.
-
-! Missing { inserted.
-<inserted text> 
-                {
-l.143 \begin{verbatim}
-                      
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-
-Overfull \hbox (22.4968pt too wide) in paragraph at lines 158--158
-[]\OT1/cmtt/m/n/10 plot2d ([f(x), p5(x), p10(x), p15(x), p20(x)], [x, -4, 4], [
-y, -3,10],[] 
- []
-
-
-Overfull \hbox (22.4968pt too wide) in paragraph at lines 158--158
-[]\OT1/cmtt/m/n/10 [color, blue, cyan, green, red, orange],[box,false],[style,[
-lines,2]],[] 
- []
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.158 \end{verbatim}
-                     \\
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: \begin{tabular} on input line 142 ended by \end{verbatim}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.158 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.158 \end{verbatim}
-                     \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.158 \end{verbatim}
-                     \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.158 \end{verbatim}
-                     \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 142--159
+Overfull \hbox (15.0pt too wide) in paragraph at lines 165--173
 [][] 
  []
 
+<tiro90.png, id=28, 481.8pt x 361.35pt>
+File: tiro90.png Graphic file (type png)
+ <use tiro90.png>
+Package pdftex.def Info: tiro90.png used on input line 176.
+(pdftex.def)             Requested size: 240.8994pt x 180.67456pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--159
+<tiro0.png, id=29, 481.8pt x 361.35pt>
+File: tiro0.png Graphic file (type png)
+ <use tiro0.png>
+Package pdftex.def Info: tiro0.png used on input line 181.
+(pdftex.def)             Requested size: 240.8994pt x 180.67456pt.
 
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.160 \begin
-            {center}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<expcos.png, id=22, 642.4pt x 481.8pt>
-File: expcos.png Graphic file (type png)
- <use expcos.png>
-Package pdftex.def Info: expcos.png used on input line 162.
-(pdftex.def)             Requested size: 256.95544pt x 192.71658pt.
- [4 <./logcos.png>]
-! Misplaced \crcr.
-\endtabular ->\crcr 
-                    \egroup \egroup $\egroup 
-l.164 \end{tabular}
-                   
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Too many }'s.
-\endtabular ->\crcr \egroup 
-                            \egroup $\egroup 
-l.164 \end{tabular}
-                   
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-! Too many }'s.
-\endtabular ->\crcr \egroup \egroup 
-                                    $\egroup 
-l.164 \end{tabular}
-                   
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.164 \end{tabular}
-                   
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: \begin{document} ended by \end{tabular}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164 \end{tabular}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.164 \end{tabular}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.164 \end{tabular}
-                   
-Things are pretty mixed up, but I think the worst is over.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.175 \begin{verbatim}
-                      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.175 \begin{verbatim}
-                      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.175 \begin{verbatim}
-                      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.175 \begin{verbatim}
-                      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.175 \begin{verbatim}
-                      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.175 \begin{verbatim}
-                      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.175 \begin{verbatim}
-                      
-I'm guessing that you meant to end an alignment here.
-
-! Missing { inserted.
-<inserted text> 
-                {
-l.175 \begin{verbatim}
-                      
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-
-Overfull \hbox (38.24666pt too wide) in paragraph at lines 190--190
-[]\OT1/cmtt/m/n/10 plot2d ([t5(x), t10(x), t15(x), t20(x), f(x)], [x, -16, 16],
- [y, -16,16],[] 
- []
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.190 \end{verbatim}
-                     \\
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: \begin{tabular} on input line 174 ended by \end{verbatim}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.190 \end{verbatim}
-                     \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.190 \end{verbatim}
-                     \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.190 \end{verbatim}
-                     \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.190 \end{verbatim}
-                     \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 174--191
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--191
-
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.192 \begin
-            {center}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<1xexp.png, id=27, 642.4pt x 481.8pt>
-File: 1xexp.png Graphic file (type png)
- <use 1xexp.png>
-Package pdftex.def Info: 1xexp.png used on input line 194.
-(pdftex.def)             Requested size: 256.95544pt x 192.71658pt.
- [5 <./expcos.png>]
-! Misplaced \crcr.
-\endtabular ->\crcr 
-                    \egroup \egroup $\egroup 
-l.196 \end{tabular}
-                   
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Too many }'s.
-\endtabular ->\crcr \egroup 
-                            \egroup $\egroup 
-l.196 \end{tabular}
-                   
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-! Too many }'s.
-\endtabular ->\crcr \egroup \egroup 
-                                    $\egroup 
-l.196 \end{tabular}
-                   
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.196 \end{tabular}
-                   
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: \begin{document} ended by \end{tabular}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.196 \end{tabular}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.196 \end{tabular}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.196 \end{tabular}
-                   
-Things are pretty mixed up, but I think the worst is over.
-
-[6 <./1xexp.png>] (./reportegraficando.aux
+<tiro60.png, id=30, 481.8pt x 361.35pt>
+File: tiro60.png Graphic file (type png)
+ <use tiro60.png>
+Package pdftex.def Info: tiro60.png used on input line 186.
+(pdftex.def)             Requested size: 240.8994pt x 180.67456pt.
+ [5 <./tiro90.png> <./tiro0.png>] <tiro30.png, id=36, 481.8pt x 361.35pt>
+File: tiro30.png Graphic file (type png)
+ <use tiro30.png>
+Package pdftex.def Info: tiro30.png used on input line 191.
+(pdftex.def)             Requested size: 240.8994pt x 180.67456pt.
+ [6 <./tiro60.png> <./tiro30.png>] (./proyectiles.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
 ) ) 
 Here is how much of TeX's memory you used:
- 2425 strings out of 494966
- 32207 string characters out of 6179560
- 94233 words of memory out of 5000000
- 5623 multiletter control sequences out of 15000+600000
- 7755 words of font info for 28 fonts, out of 8000000 for 9000
+ 2441 strings out of 494966
+ 32406 string characters out of 6179560
+ 103242 words of memory out of 5000000
+ 5638 multiletter control sequences out of 15000+600000
+ 8063 words of font info for 29 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 37i,8n,26p,293b,235s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on reportegraficando.pdf (6 pages, 101604 bytes).
+ 37i,8n,26p,451b,235s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmtt10.pfb>
+Output written on proyectiles.pdf (6 pages, 382592 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 29 compressed objects within 1 object stream
+ 71 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

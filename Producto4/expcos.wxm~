@@ -2,17 +2,17 @@
 /* [ Created with wxMaxima version 13.04.2 ] */
 /* [wxMaxima: input start ] */
 f(x):=exp(x)/cos(x);
-p4(x):=taylor(f(x), x, 0, 3);
-p6(x):=taylor(f(x), x, 0, 6);
-p8(x):=taylor(f(x), x, 0, 9);
-p10(x):=taylor(f(x), x, 0, 12);
-tex(p4(x));
-tex(p6(x));
-tex(p8(x));
+p5(x):=taylor(f(x), x, 0, 5);
+p10(x):=taylor(f(x), x, 0, 10);
+p15(x):=taylor(f(x), x, 0, 15);
+p20(x):=taylor(f(x), x, 0, 20);
+tex(p5(x));
 tex(p10(x));
-plot2d ([f(x), p4(x), p6(x), p8(x), p10(x)], [x, -4, 4], [y, -3,10],
+tex(p15(x));
+tex(p20(x));
+plot2d ([f(x), p5(x), p10(x), p15(x), p20(x)], [x, -4, 4], [y, -3,10],
 [color, blue, cyan, green, red, orange],
-[legend, "f", "p4", "p6", "p8","p10"],
+[legend, "f", "p5", "p10", "p15","p20"],
 [axes, true], [xlabel,"x"], [ylabel, "exp(x)/cos(x)"]);
 /* [wxMaxima: input end ] */
 /* Maxima can't load/batch files which end with a comment! */
