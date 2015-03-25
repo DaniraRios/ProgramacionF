@@ -9,11 +9,13 @@
        implicit none  
        !Defining constants:  
       real, parameter :: pi = 4.0*atan(1.0) 
-       real :: x0, y0, v0x, v0y, v, t, xf, yf, angulo, alfa, vfx, vfy, afx, afy, m, radio, D, A
+      real :: angulo, alfa, m ,radio, D, A
+      real :: x0, y0, v0x, v0y, v
+      real, parameter :: deltat= 0.01
       real, parameter :: cfe = 0.47
       real, parameter :: airden = 1.225  
-       real, parameter :: g = 9.81  
-      real:: x(150),y(150)  
+      real, parameter :: g = 9.81  
+       
 
           integer :: i 
 
@@ -67,70 +69,34 @@
 
 
 
-       ! Calculando las velocidades en los 2 ejes
+       !Descomponinedo la velocidad inicial
 
        v0x=(v)*(cos(alfa))
 
        v0y=(v)*(sin(alfa))
      
-       !Calculando las aceleraciones finales en el instante de tiempo
+       !Calculando las aceleraciones iniciales
        
-        t = (float (i)* 0.01)
-        
-        
+       ax = -(D/m) * (v0x * v0x)
 
+       ay = -g - (D/m) * (v0y * v0y)
+      
        
+        
+       !abriendo un archivo .dat para comenzar a registrar los datos iniciales  
 
-       !open .dat file and start writing on it using the algorithm   
+         OPEN (1, FILE="friccion.dat")
+         WRITE (1,300) x0, y0
+         1001 FORMAT (f11.5,f11.5)
+   
 
-       open(1, file='tiro.dat')   
+          
 
-        x=0
-        y=0 
-
-       do i=1,100   
-
-            !displacement of object in x and y direction   
-
-           t = (float(i)*0.01)   
-
-            x(i) = vx*t   
-
-            y(i) = (vy*t) - (0.5*g*t*t)   
-
-           !write output in file "proj.dat" for plotting   
-
-            write(1,*) x(i), y(i)   
-
-           !kill the loop when the object hits the ground   
-
-            if (y(i)<0) exit   
-
-       end do   
-
-      close(1)   
-
-      !close file 
-ym = (vy**2)/(19.6)
-xm = x(i)
-if (vx<0) then
-xm = 0
-end if
-!resultados en pantalla
-write(*,*) '^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
-write(*,*) 'Un proyectil con una velocidad inicial de',v,'m/s'
-write(*,*) 'y con un ángulo de tiro de',a, 'grados'
-write(*,*)  'Alcanzará una h máxima de',ym, 'metros'
-write(*,*) 'Su alcanze horizontal sera de',xm, 'metros'
-write(*,*) 'y durará en el aire un tiempo de',t,'segundos'
-
-  end program tiro_parabolico 
+  
 
 
 
-!Subrutina para el calculo de la trayectoria
-Subroutine Calculando_posicion (
 
 
-!Subrutina para el calculo de la fuerza de arrastre
+
 
