@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.1)  8 MAR 2015 11:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.15)  7 APR 2015 15:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **reportegraficando.tex
 (./reportegraficando.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 5 languages loaded.
+Babel <3.9h> and hyphenation patterns for 7 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -294,7 +294,12 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-No file reportegraficando.aux.
+(./reportegraficando.aux
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
+)
 \openout1 = `reportegraficando.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -311,6 +316,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Info: Redefining \. on input line 17.
 LaTeX Info: Redefining \% on input line 17.
+
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count91
@@ -392,7 +398,7 @@ Type  H <return>  for immediate help.
                                                   
 l.28 \begin{verbatim}
                      
-? return
+? r
 OK, entering \nonstopmode...
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
@@ -468,15 +474,9 @@ the current column of the current alignment.
 Try to go on, since this might almost work.
 
 
-Overfull \hbox (17.24684pt too wide) in paragraph at lines 53--53
-[]\OT1/cmtt/m/n/10 [color, blue, green, red, black, cyan], [box,false],[style,[
-lines,2]][] 
- []
-
-
-Overfull \hbox (27.74675pt too wide) in paragraph at lines 53--53
-[]\OT1/cmtt/m/n/10 ,[legend,"pT1(x)","pT3(x)", "pT5(x)", "pT7(x)", "Sen(x)"],[a
-xes, true],[] 
+Overfull \hbox (48.74657pt too wide) in paragraph at lines 54--54
+[]\OT1/cmtt/m/n/10 [style,[lines,2]],[legend,"pT1(x)","pT3(x)", "pT5(x)", "pT7(
+x)", "Sen(x)"],[] 
  []
 
 
@@ -486,7 +486,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 \end{verbatim}
+l.54 \end{verbatim}
                     \\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -498,7 +498,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 \end{verbatim}
+l.54 \end{verbatim}
                     \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -507,7 +507,7 @@ or  <return>  to continue without it.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.53 \end{verbatim}
+l.54 \end{verbatim}
                     \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -518,7 +518,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.53 \end{verbatim}
+l.54 \end{verbatim}
                     \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -529,7 +529,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.53 \end{verbatim}
+l.54 \end{verbatim}
                     \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -538,12 +538,12 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 27--54
+Overfull \hbox (15.0pt too wide) in paragraph at lines 27--55
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--54
+Underfull \hbox (badness 10000) in paragraph at lines 27--55
 
  []
 
@@ -554,7 +554,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.55 \begin
+l.56 \begin
            {center}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -563,7 +563,7 @@ or  <return>  to continue without it.
 <sinx.png, id=1, 642.4pt x 481.8pt>
 File: sinx.png Graphic file (type png)
  <use sinx.png>
-Package pdftex.def Info: sinx.png used on input line 57.
+Package pdftex.def Info: sinx.png used on input line 58.
 (pdftex.def)             Requested size: 256.95544pt x 192.71658pt.
  [1
 
@@ -571,7 +571,7 @@ Package pdftex.def Info: sinx.png used on input line 57.
 ! Misplaced \crcr.
 \endtabular ->\crcr 
                     \egroup \egroup $\egroup 
-l.59 \end{tabular}
+l.60 \end{tabular}
                   
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -582,7 +582,7 @@ might try typing `S' now just to see what is salvageable.
 ! Too many }'s.
 \endtabular ->\crcr \egroup 
                             \egroup $\egroup 
-l.59 \end{tabular}
+l.60 \end{tabular}
                   
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -590,7 +590,7 @@ Such booboos are generally harmless, so keep going.
 ! Too many }'s.
 \endtabular ->\crcr \egroup \egroup 
                                     $\egroup 
-l.59 \end{tabular}
+l.60 \end{tabular}
                   
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -598,7 +598,7 @@ Such booboos are generally harmless, so keep going.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.59 \end{tabular}
+l.60 \end{tabular}
                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -613,7 +613,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 \end{tabular}
+l.60 \end{tabular}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -622,7 +622,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.59 \end{tabular}
+l.60 \end{tabular}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -633,7 +633,7 @@ my insertion and my current dilemma will both disappear.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.59 \end{tabular}
+l.60 \end{tabular}
                   
 Things are pretty mixed up, but I think the worst is over.
 
@@ -644,7 +644,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 \begin{verbatim}
+l.72 \begin{verbatim}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -656,7 +656,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 \begin{verbatim}
+l.72 \begin{verbatim}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -668,7 +668,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 \begin{verbatim}
+l.72 \begin{verbatim}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -676,7 +676,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.71 \begin{verbatim}
+l.72 \begin{verbatim}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -687,7 +687,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.71 \begin{verbatim}
+l.72 \begin{verbatim}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -698,7 +698,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.71 \begin{verbatim}
+l.72 \begin{verbatim}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -709,35 +709,23 @@ my insertion and my current dilemma will both disappear.
 ! Missing \cr inserted.
 <inserted text> 
                 \cr 
-l.71 \begin{verbatim}
+l.72 \begin{verbatim}
                      
 I'm guessing that you meant to end an alignment here.
 
 ! Missing { inserted.
 <inserted text> 
                 {
-l.71 \begin{verbatim}
+l.72 \begin{verbatim}
                      
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
 
-Overfull \hbox (32.9967pt too wide) in paragraph at lines 95--95
-[]\OT1/cmtt/m/n/10 plot2d ([T4(x), T7(x), T11(x), T16(x), f(x)], [x, -1.5, 1.5]
-, [y, -4,2],[] 
- []
-
-
-Overfull \hbox (22.4968pt too wide) in paragraph at lines 95--95
-[]\OT1/cmtt/m/n/10 [style,[lines,2]],[color, red, green, blue, cyan, orange],[b
-ox,false],[] 
- []
-
-
-Overfull \hbox (53.99652pt too wide) in paragraph at lines 95--95
-[]\OT1/cmtt/m/n/10 [legend, "pT4(x)", "pT7(x)", "pT11(x)", "pT16(x)", "log(1+x)
-"],[axes, true],[] 
+Overfull \hbox (95.99615pt too wide) in paragraph at lines 97--97
+[]\OT1/cmtt/m/n/10 [x, -1.5, 1.5], [y, -4,2],[style,[lines,2]],[color, red, gre
+en, blue, cyan, orange],[] 
  []
 
 
@@ -747,19 +735,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.95 \end{verbatim}
+l.97 \end{verbatim}
                     \\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-! LaTeX Error: \begin{tabular} on input line 70 ended by \end{verbatim}.
+! LaTeX Error: \begin{tabular} on input line 71 ended by \end{verbatim}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.95 \end{verbatim}
+l.97 \end{verbatim}
                     \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -768,7 +756,7 @@ or  <return>  to continue without it.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.95 \end{verbatim}
+l.97 \end{verbatim}
                     \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -779,7 +767,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.95 \end{verbatim}
+l.97 \end{verbatim}
                     \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -790,7 +778,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.95 \end{verbatim}
+l.97 \end{verbatim}
                     \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -799,12 +787,12 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 70--96
+Overfull \hbox (15.0pt too wide) in paragraph at lines 71--98
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--96
+Underfull \hbox (badness 10000) in paragraph at lines 71--98
 
  []
 
@@ -815,7 +803,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.97 \begin
+l.99 \begin
            {center}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -824,13 +812,13 @@ or  <return>  to continue without it.
 <log1.png, id=12, 642.4pt x 481.8pt>
 File: log1.png Graphic file (type png)
  <use log1.png>
-Package pdftex.def Info: log1.png used on input line 99.
+Package pdftex.def Info: log1.png used on input line 101.
 (pdftex.def)             Requested size: 256.95544pt x 192.71658pt.
  [2 <./sinx.png>]
 ! Misplaced \crcr.
 \endtabular ->\crcr 
                     \egroup \egroup $\egroup 
-l.101 \end{tabular}
+l.103 \end{tabular}
                    
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -841,7 +829,7 @@ might try typing `S' now just to see what is salvageable.
 ! Too many }'s.
 \endtabular ->\crcr \egroup 
                             \egroup $\egroup 
-l.101 \end{tabular}
+l.103 \end{tabular}
                    
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -849,7 +837,7 @@ Such booboos are generally harmless, so keep going.
 ! Too many }'s.
 \endtabular ->\crcr \egroup \egroup 
                                     $\egroup 
-l.101 \end{tabular}
+l.103 \end{tabular}
                    
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -857,7 +845,7 @@ Such booboos are generally harmless, so keep going.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.101 \end{tabular}
+l.103 \end{tabular}
                    
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -872,7 +860,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 \end{tabular}
+l.103 \end{tabular}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -881,7 +869,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.101 \end{tabular}
+l.103 \end{tabular}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -892,7 +880,7 @@ my insertion and my current dilemma will both disappear.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.101 \end{tabular}
+l.103 \end{tabular}
                    
 Things are pretty mixed up, but I think the worst is over.
 
@@ -903,7 +891,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.112 \begin{verbatim}
+l.114 \begin{verbatim}
                       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -915,7 +903,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.112 \begin{verbatim}
+l.114 \begin{verbatim}
                       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -927,7 +915,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.112 \begin{verbatim}
+l.114 \begin{verbatim}
                       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -935,7 +923,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.112 \begin{verbatim}
+l.114 \begin{verbatim}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -946,7 +934,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.112 \begin{verbatim}
+l.114 \begin{verbatim}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -957,7 +945,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.112 \begin{verbatim}
+l.114 \begin{verbatim}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -968,35 +956,35 @@ my insertion and my current dilemma will both disappear.
 ! Missing \cr inserted.
 <inserted text> 
                 \cr 
-l.112 \begin{verbatim}
+l.114 \begin{verbatim}
                       
 I'm guessing that you meant to end an alignment here.
 
 ! Missing { inserted.
 <inserted text> 
                 {
-l.112 \begin{verbatim}
+l.114 \begin{verbatim}
                       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
 
-Overfull \hbox (80.24629pt too wide) in paragraph at lines 126--126
+Overfull \hbox (80.24629pt too wide) in paragraph at lines 130--130
 []\OT1/cmtt/m/n/10 plot2d ([f(x), t3(x), t6(x), t9(x), t12(x)], [x, -0.5*%pi, 0
 .5*%pi], [y, -2,0.5],[] 
  []
 
 
-Overfull \hbox (22.4968pt too wide) in paragraph at lines 126--126
-[]\OT1/cmtt/m/n/10 [color, green, blue, red, cyan, orange],[box,false],[style,[
-lines,2]],[] 
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 130--130
+[]\OT1/cmtt/m/n/10 [color, green, blue, red, cyan, orange],[box,true],[style,[l
+ines,2]],[] 
  []
 
 
-Overfull \hbox (43.49661pt too wide) in paragraph at lines 126--126
-[]\OT1/cmtt/m/n/10 [legend, "f(x)", "pT3", "pT6", "pT9", "pT12"], [axes, true],
- [xlabel,"x"],[] 
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 130--130
+[]\OT1/cmtt/m/n/10 [legend, "f(x)", "pT3", "pT6", "pT9", "pT12"],[gnuplot_pream
+ble, "set grid"],[] 
  []
 
 
@@ -1006,19 +994,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.126 \end{verbatim}
+l.130 \end{verbatim}
                      \\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-! LaTeX Error: \begin{tabular} on input line 111 ended by \end{verbatim}.
+! LaTeX Error: \begin{tabular} on input line 113 ended by \end{verbatim}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.126 \end{verbatim}
+l.130 \end{verbatim}
                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1027,7 +1015,7 @@ or  <return>  to continue without it.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.126 \end{verbatim}
+l.130 \end{verbatim}
                      \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1038,7 +1026,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.126 \end{verbatim}
+l.130 \end{verbatim}
                      \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1049,7 +1037,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.126 \end{verbatim}
+l.130 \end{verbatim}
                      \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1058,12 +1046,12 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 111--127
+Overfull \hbox (15.0pt too wide) in paragraph at lines 113--131
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--127
+Underfull \hbox (badness 10000) in paragraph at lines 113--131
 
  []
 
@@ -1074,7 +1062,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.128 \begin
+l.132 \begin
             {center}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1083,13 +1071,13 @@ or  <return>  to continue without it.
 <logcos.png, id=17, 642.4pt x 481.8pt>
 File: logcos.png Graphic file (type png)
  <use logcos.png>
-Package pdftex.def Info: logcos.png used on input line 130.
+Package pdftex.def Info: logcos.png used on input line 134.
 (pdftex.def)             Requested size: 256.95544pt x 192.71658pt.
  [3 <./log1.png>]
 ! Misplaced \crcr.
 \endtabular ->\crcr 
                     \egroup \egroup $\egroup 
-l.132 \end{tabular}
+l.136 \end{tabular}
                    
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -1100,7 +1088,7 @@ might try typing `S' now just to see what is salvageable.
 ! Too many }'s.
 \endtabular ->\crcr \egroup 
                             \egroup $\egroup 
-l.132 \end{tabular}
+l.136 \end{tabular}
                    
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -1108,7 +1096,7 @@ Such booboos are generally harmless, so keep going.
 ! Too many }'s.
 \endtabular ->\crcr \egroup \egroup 
                                     $\egroup 
-l.132 \end{tabular}
+l.136 \end{tabular}
                    
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -1116,7 +1104,7 @@ Such booboos are generally harmless, so keep going.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.132 \end{tabular}
+l.136 \end{tabular}
                    
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1131,7 +1119,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.132 \end{tabular}
+l.136 \end{tabular}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1140,7 +1128,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.132 \end{tabular}
+l.136 \end{tabular}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1151,7 +1139,7 @@ my insertion and my current dilemma will both disappear.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.132 \end{tabular}
+l.136 \end{tabular}
                    
 Things are pretty mixed up, but I think the worst is over.
 
@@ -1162,7 +1150,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.143 \begin{verbatim}
+l.147 \begin{verbatim}
                       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1174,7 +1162,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.143 \begin{verbatim}
+l.147 \begin{verbatim}
                       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1186,7 +1174,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.143 \begin{verbatim}
+l.147 \begin{verbatim}
                       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1194,7 +1182,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.143 \begin{verbatim}
+l.147 \begin{verbatim}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1205,7 +1193,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.143 \begin{verbatim}
+l.147 \begin{verbatim}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1216,7 +1204,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.143 \begin{verbatim}
+l.147 \begin{verbatim}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1227,29 +1215,29 @@ my insertion and my current dilemma will both disappear.
 ! Missing \cr inserted.
 <inserted text> 
                 \cr 
-l.143 \begin{verbatim}
+l.147 \begin{verbatim}
                       
 I'm guessing that you meant to end an alignment here.
 
 ! Missing { inserted.
 <inserted text> 
                 {
-l.143 \begin{verbatim}
+l.147 \begin{verbatim}
                       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
 
-Overfull \hbox (22.4968pt too wide) in paragraph at lines 158--158
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 163--163
 []\OT1/cmtt/m/n/10 plot2d ([f(x), p5(x), p10(x), p15(x), p20(x)], [x, -4, 4], [
 y, -3,10],[] 
  []
 
 
-Overfull \hbox (22.4968pt too wide) in paragraph at lines 158--158
-[]\OT1/cmtt/m/n/10 [color, blue, cyan, green, red, orange],[box,false],[style,[
-lines,2]],[] 
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 163--163
+[]\OT1/cmtt/m/n/10 [color, blue, cyan, green, red, orange],[box,true],[style,[l
+ines,2]],[] 
  []
 
 
@@ -1259,19 +1247,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.158 \end{verbatim}
+l.163 \end{verbatim}
                      \\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-! LaTeX Error: \begin{tabular} on input line 142 ended by \end{verbatim}.
+! LaTeX Error: \begin{tabular} on input line 146 ended by \end{verbatim}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.158 \end{verbatim}
+l.163 \end{verbatim}
                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1280,7 +1268,7 @@ or  <return>  to continue without it.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.158 \end{verbatim}
+l.163 \end{verbatim}
                      \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1291,7 +1279,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.158 \end{verbatim}
+l.163 \end{verbatim}
                      \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1302,7 +1290,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.158 \end{verbatim}
+l.163 \end{verbatim}
                      \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1311,12 +1299,12 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 142--159
+Overfull \hbox (15.0pt too wide) in paragraph at lines 146--164
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--159
+Underfull \hbox (badness 10000) in paragraph at lines 146--164
 
  []
 
@@ -1327,7 +1315,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.160 \begin
+l.165 \begin
             {center}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1336,13 +1324,13 @@ or  <return>  to continue without it.
 <expcos.png, id=22, 642.4pt x 481.8pt>
 File: expcos.png Graphic file (type png)
  <use expcos.png>
-Package pdftex.def Info: expcos.png used on input line 162.
+Package pdftex.def Info: expcos.png used on input line 167.
 (pdftex.def)             Requested size: 256.95544pt x 192.71658pt.
  [4 <./logcos.png>]
 ! Misplaced \crcr.
 \endtabular ->\crcr 
                     \egroup \egroup $\egroup 
-l.164 \end{tabular}
+l.169 \end{tabular}
                    
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -1353,7 +1341,7 @@ might try typing `S' now just to see what is salvageable.
 ! Too many }'s.
 \endtabular ->\crcr \egroup 
                             \egroup $\egroup 
-l.164 \end{tabular}
+l.169 \end{tabular}
                    
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -1361,7 +1349,7 @@ Such booboos are generally harmless, so keep going.
 ! Too many }'s.
 \endtabular ->\crcr \egroup \egroup 
                                     $\egroup 
-l.164 \end{tabular}
+l.169 \end{tabular}
                    
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -1369,7 +1357,7 @@ Such booboos are generally harmless, so keep going.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.164 \end{tabular}
+l.169 \end{tabular}
                    
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1384,7 +1372,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.164 \end{tabular}
+l.169 \end{tabular}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1393,7 +1381,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.164 \end{tabular}
+l.169 \end{tabular}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1404,7 +1392,7 @@ my insertion and my current dilemma will both disappear.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.164 \end{tabular}
+l.169 \end{tabular}
                    
 Things are pretty mixed up, but I think the worst is over.
 
@@ -1415,7 +1403,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.175 \begin{verbatim}
+l.180 \begin{verbatim}
                       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1427,7 +1415,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.175 \begin{verbatim}
+l.180 \begin{verbatim}
                       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1439,7 +1427,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.175 \begin{verbatim}
+l.180 \begin{verbatim}
                       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1447,7 +1435,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.175 \begin{verbatim}
+l.180 \begin{verbatim}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1458,7 +1446,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.175 \begin{verbatim}
+l.180 \begin{verbatim}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1469,7 +1457,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.175 \begin{verbatim}
+l.180 \begin{verbatim}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1480,21 +1468,21 @@ my insertion and my current dilemma will both disappear.
 ! Missing \cr inserted.
 <inserted text> 
                 \cr 
-l.175 \begin{verbatim}
+l.180 \begin{verbatim}
                       
 I'm guessing that you meant to end an alignment here.
 
 ! Missing { inserted.
 <inserted text> 
                 {
-l.175 \begin{verbatim}
+l.180 \begin{verbatim}
                       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
 
-Overfull \hbox (38.24666pt too wide) in paragraph at lines 190--190
+Overfull \hbox (38.24666pt too wide) in paragraph at lines 195--195
 []\OT1/cmtt/m/n/10 plot2d ([t5(x), t10(x), t15(x), t20(x), f(x)], [x, -16, 16],
  [y, -16,16],[] 
  []
@@ -1506,19 +1494,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.190 \end{verbatim}
+l.195 \end{verbatim}
                      \\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-! LaTeX Error: \begin{tabular} on input line 174 ended by \end{verbatim}.
+! LaTeX Error: \begin{tabular} on input line 179 ended by \end{verbatim}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.190 \end{verbatim}
+l.195 \end{verbatim}
                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1527,7 +1515,7 @@ or  <return>  to continue without it.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.190 \end{verbatim}
+l.195 \end{verbatim}
                      \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1538,7 +1526,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.190 \end{verbatim}
+l.195 \end{verbatim}
                      \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1549,7 +1537,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.190 \end{verbatim}
+l.195 \end{verbatim}
                      \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1558,12 +1546,12 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 174--191
+Overfull \hbox (15.0pt too wide) in paragraph at lines 179--196
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--191
+Underfull \hbox (badness 10000) in paragraph at lines 179--196
 
  []
 
@@ -1574,7 +1562,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.192 \begin
+l.197 \begin
             {center}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1583,13 +1571,13 @@ or  <return>  to continue without it.
 <1xexp.png, id=27, 642.4pt x 481.8pt>
 File: 1xexp.png Graphic file (type png)
  <use 1xexp.png>
-Package pdftex.def Info: 1xexp.png used on input line 194.
+Package pdftex.def Info: 1xexp.png used on input line 199.
 (pdftex.def)             Requested size: 256.95544pt x 192.71658pt.
  [5 <./expcos.png>]
 ! Misplaced \crcr.
 \endtabular ->\crcr 
                     \egroup \egroup $\egroup 
-l.196 \end{tabular}
+l.201 \end{tabular}
                    
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -1600,7 +1588,7 @@ might try typing `S' now just to see what is salvageable.
 ! Too many }'s.
 \endtabular ->\crcr \egroup 
                             \egroup $\egroup 
-l.196 \end{tabular}
+l.201 \end{tabular}
                    
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -1608,7 +1596,7 @@ Such booboos are generally harmless, so keep going.
 ! Too many }'s.
 \endtabular ->\crcr \egroup \egroup 
                                     $\egroup 
-l.196 \end{tabular}
+l.201 \end{tabular}
                    
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -1616,7 +1604,7 @@ Such booboos are generally harmless, so keep going.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.196 \end{tabular}
+l.201 \end{tabular}
                    
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1631,7 +1619,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.196 \end{tabular}
+l.201 \end{tabular}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1640,7 +1628,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.196 \end{tabular}
+l.201 \end{tabular}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1651,7 +1639,7 @@ my insertion and my current dilemma will both disappear.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.196 \end{tabular}
+l.201 \end{tabular}
                    
 Things are pretty mixed up, but I think the worst is over.
 
@@ -1662,19 +1650,19 @@ LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
 ) ) 
 Here is how much of TeX's memory you used:
- 2425 strings out of 494966
- 32207 string characters out of 6179560
- 94233 words of memory out of 5000000
- 5623 multiletter control sequences out of 15000+600000
+ 2427 strings out of 494925
+ 32251 string characters out of 6178544
+ 94383 words of memory out of 5000000
+ 5630 multiletter control sequences out of 15000+600000
  7755 words of font info for 28 fonts, out of 8000000 for 9000
- 40 hyphenation exceptions out of 8191
- 37i,8n,26p,293b,235s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62 hyphenation exceptions out of 8191
+ 37i,8n,26p,293b,248s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on reportegraficando.pdf (6 pages, 101604 bytes).
+Output written on reportegraficando.pdf (6 pages, 119749 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  29 compressed objects within 1 object stream
