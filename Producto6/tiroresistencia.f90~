@@ -5,89 +5,140 @@
   !step of 0.01 second i.e. it calculates object's  
   !location in the x and y plane every 0.01 second.  
   !**********By: Waleed Ishaque, 2013**************  
-  program tiro_parabolico  
+  program tiro_resistencia  
        implicit none  
        !Defining constants:  
       real, parameter :: pi = 4.0*atan(1.0) 
-       real :: v, a, t, r, vx, vy, xm, ym  
-       real, parameter :: g = 9.81  
-      real:: x(150),y(150)  
+      real :: v, angulo, alfa, vx, vy, x0, y0, ax, ay
+      real :: t, v0x, v0y, vfx, vfy, xf, yf 
+      real :: m, radio, A, D
+      
+      real, parameter :: deltat = 0.1
+      real, parameter :: cfe = 0.47
+      real, parameter :: airden = 1.225
+      real, parameter :: g = 9.81  
+      real :: x(100),y(100)  
 
-          integer :: i 
+          integer :: i
 
 
-      !donde g es la aceleracion de la gravedad, pi is "pi"   
+!donde pi es pi
+!donde v es la velocidad inicial compuesta por x,y  
+!donde angulo es el angulo en grados
+!donde alfa es el angulo en radianes
+!donde t es el tiempo
+!donde vx es el componente en x de la velocidad inicial
+!donde vy es el componente en y de la velocidad inicial
+!donde x,y son las coordenadas iniciales del objeto
+!donde m es la masa de la esfera
+!donde radio es el radio de la esfera
+!donde a es el area de la esfera
 
-      !v es la velocidad inicial del objeto   
+        
+       write(*,*) 'Dame la posicion inicial en x de la esfera, en metros (Real)'
+ 
+     read *, x0
 
-       !a es el angulo de tiro, r es el mismo angulo, pero en radianes   
+       write(*,*) 'Dame la posicion inicial en y de la esfera, en metros (Real)'
+ 
+     read *, y0
 
-      !t es el tiempo   
+       write(*,*) 'Dame el ángulo inicial de tiro de la esfera en grados (Real)'   
 
-      !x and y son cordenadas del objeto durante el tiro    
+     read *, angulo   
 
-      !Seek user input   
+       write(*,*) 'Dame la velocidad inicial de la esfera en m/s (Real) '   
 
-       write(*,*) 'Dame el ángulo inicial de tiro del proyectil en grados (Real)'   
+     read *, v
 
-      read *, a   
+       write(*,*) 'Dame la masa de la esfera en kg (Real) '   
 
-       write(*,*) 'Dame la velocidad inicial del proyectil en m/s (Real) '   
+     read *, m 
+  
+       write(*,*) 'Dame el radio de la esfera en m (Real) '   
 
-       read *, v   
+     read *, radio
+
 
        !Convirtiendo los grados  a radianes   
 
-       r = a*pi/180.0  
+       alfa = angulo*pi/180.0  
+   
+       !Calculando el area de la esfera
+       
+       A = pi * (radio * radio)
+       
+       !Calculando la constante D
+       
+       D = (cfe * airden * A) / 2
+     
+      
+       ! Descomponiendo la v
 
-       ! Calculando las velocidades en los 2 ejes
+       vx=(v)*(cos(alfa)) 
+ 
+       v0x = vx
 
-       vx=(v)*(cos(r))
+       vy=(v)*(sin(alfa)) 
+    
+       v0y = vy
+ 
+!open .dat file and start writing on it using the algorithm
+open(1, file='tiro.dat')
+x=0
+y=0
+do i=0,100
+ 
+! calculando parametros 
+call calculando_parametros
 
-       vy=(v)*(sin(r))
+!escribir en el archivo tiro.dat
+write(1,*) xf, yf
 
-       !open .dat file and start writing on it using the algorithm   
+if (t>10) exit
+end do
 
-       open(1, file='tiro.dat')   
+!^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+contains 
+subroutine calculando_parametros
+REAL, INTENT(IN) :: D, m, v, v0x, g, v0y, deltat, x0, y0
+    REAL, INTENT(OUT) :: xf, yf
 
-        x=0
-        y=0 
 
-       do i=1,100   
 
-            !displacement of object in x and y direction   
+ax = -(D/m) * v * v0x
+ay = -g -(D/m) * v * v0y
 
-           t = (float(i)*0.01)   
 
-            x(i) = vx*t   
+t = (float(i) * deltat)
+vfx = v0x + (ax * t)
+vfy = v0y + (ay * t)
 
-            y(i) = (vy*t) - (0.5*g*t*t)   
+xf = x0 + (vfx * t) + ((0.5) * ax * (t*t))
+yf = y0 + (vfy * t) + ((0.5) * ay * (t*t))
 
-           !write output in file "proj.dat" for plotting   
+t = t + deltat
 
-            write(1,*) x(i), y(i)   
+! llamando a la subrutina cambiar parametros, para que los componentes finales de una etapa sean los componentes iniciales de la siguiente
+call cambiar_ parametros
 
-           !kill the loop when the object hits the ground   
+END SUBROUTINE calculando_parametros
 
-            if (y(i)<0) exit   
+!^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+contains 
 
-       end do   
+Subroutine cambiar_parametros
+    REAL, INTENT(IN) :: vfx, vfy, xf, yf 
+    REAL, INTENT(OUT) :: v0x, v0y, x0, y0
+vfx = v0x
+vfy = v0y
+xf = x0
+yf = y0
 
-      close(1)   
+END SUBROUTINE cambiar_parametros
 
-      !close file 
-ym = (vy**2)/(19.6)
-xm = x(i)
-if (vx<0) then
-xm = 0
-end if
-!resultados en pantalla
-write(*,*) '^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
-write(*,*) 'Un proyectil con una velocidad inicial de',v,'m/s'
-write(*,*) 'y con un ángulo de tiro de',a, 'grados'
-write(*,*)  'Alcanzará una h máxima de',ym, 'metros'
-write(*,*) 'Su alcanze horizontal sera de',xm, 'metros'
-write(*,*) 'y durará en el aire un tiempo de',t,'segundos'
+end program tiro_resistencia
+      
+     
 
-  end program tiro_parabolico 
 
