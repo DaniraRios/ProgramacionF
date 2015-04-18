@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.1)  11 APR 2015 15:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.1)  17 APR 2015 16:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -294,7 +294,12 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-No file reporte6.aux.
+(./reporte6.aux
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
+)
 \openout1 = `reporte6.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -311,7 +316,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Info: Redefining \. on input line 17.
 LaTeX Info: Redefining \% on input line 17.
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count91
 \scratchdimen=\dimen106
@@ -379,80 +384,150 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 19.
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
+Underfull \hbox (badness 10000) in paragraph at lines 21--25
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
+Underfull \hbox (badness 10000) in paragraph at lines 21--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 31.
+(Font)              <7> on input line 30.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 31.
+(Font)              <5> on input line 30.
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
 
-Overfull \hbox (101.24611pt too wide) in paragraph at lines 215--215
+Overfull \hbox (489.74272pt too wide) in paragraph at lines 228--228
 [] \OT1/cmtt/m/n/10 !Con este programa podremos calcular la posicion de un proy
-ectil en tiro parabolico,[] 
+ectil en tiro parabolico, conciderando la resistencia del aire y comparalo con 
+una situacion ideal.[] 
  []
 
 
-Overfull \hbox (38.24666pt too wide) in paragraph at lines 215--215
-[]\OT1/cmtt/m/n/10 conciderando la resistencia del aire y comparalo con una sit
-uacion ideal.[] 
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 228--228
+[]\OT1/cmtt/m/n/10 real, parameter :: densidad = 1.18 !Densidad del aire al niv
+el del mar[] 
  []
 
-[2] [3]
-Overfull \hbox (53.99652pt too wide) in paragraph at lines 215--215
-[]\OT1/cmtt/m/n/10 REAL :: D, area, radio,masa !D representa una constate que d
+[2]
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 228--228
+[]\OT1/cmtt/m/n/10 print *, "La diferencia porcentual en el eje x es:", diferen
+ciax,"%"[] 
+ []
+
+
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 228--228
+[]\OT1/cmtt/m/n/10 real, parameter :: densidad = 1.18 !Densidad del aire al niv
+el del mar[] 
+ []
+
+[3]
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 228--228
+[]\OT1/cmtt/m/n/10 !###########################################################
+##########[] 
+ []
+
+
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 228--228
+[]\OT1/cmtt/m/n/10 real, parameter :: densidad = 1.18 !Densidad del aire al niv
+el del mar[] 
+ []
+
+
+Overfull \hbox (53.99652pt too wide) in paragraph at lines 228--228
+[]\OT1/cmtt/m/n/10 real :: D, area, radio,masa !D representa una constate que d
 epende del area,[] 
  []
 
-[4] [5]
+[4]
+Overfull \hbox (48.74657pt too wide) in paragraph at lines 228--228
+[]\OT1/cmtt/m/n/10 axx(0) = -(D/masa)*(sqrt((velxx(0)*velxx(0))+(velyy(0)*velyy
+(0))))*velxx(0)[] 
+ []
+
+
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 228--228
+[]\OT1/cmtt/m/n/10 ayy(0) = -g-(D/masa)*(sqrt((velxx(0)*velxx(0))+(velyy(0)*vel
+yy(0))))*velyy(0)[] 
+ []
+
+
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 228--228
+[]\OT1/cmtt/m/n/10 axx(i+1) = -(D/masa)*(sqrt((velxx(i)*velxx(i))+(velyy(i)+vel
+yy(i))))*velxx(i)[] 
+ []
+
+
+Overfull \hbox (69.74638pt too wide) in paragraph at lines 228--228
+[]\OT1/cmtt/m/n/10 ayy(i+1) = -g-(D/masa)*(sqrt((velxx(i)*velxx(i))+(velyy(i)+v
+elyy(i))))*velyy(i)[] 
+ []
+
+[5]
+Overfull \hbox (53.99652pt too wide) in paragraph at lines 228--228
+[]\OT1/cmtt/m/n/10 timecf = tt(i)*10.0 !El tiempo esta en s/10, por eso lo mult
+iplicamos por 10[] 
+ []
+
+[6]
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -460,7 +535,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.223 \begin{center}
+l.236 \begin{center}
                     
 ? r
 OK, entering \nonstopmode...
@@ -471,7 +546,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.223 \begin{center}
+l.236 \begin{center}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -483,16 +558,16 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.223 \begin{center}
+l.236 \begin{center}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<30grados.png, id=27, 1026.83624pt x 671.50874pt>
-File: 30grados.png Graphic file (type png)
- <use 30grados.png>
-Package pdftex.def Info: 30grados.png used on input line 224.
-(pdftex.def)             Requested size: 308.05325pt x 201.45418pt.
+<30grados.JPG, id=30, 754.31813pt x 517.935pt>
+File: 30grados.JPG Graphic file (type jpg)
+ <use 30grados.JPG>
+Package pdftex.def Info: 30grados.JPG used on input line 237.
+(pdftex.def)             Requested size: 301.72191pt x 207.17032pt.
 
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
@@ -501,7 +576,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.225 \end{center}
+l.238 \end{center}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -513,7 +588,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.225 \end{center}
+l.238 \end{center}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -525,7 +600,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.225 \end{center}
+l.238 \end{center}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -537,19 +612,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.230 \begin{center}
-                    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.230 \begin{center}
+l.243 \begin{center}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -561,61 +624,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.230 \begin{center}
-                    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<45grados.png, id=29, 1023.825pt x 671.50874pt>
-File: 45grados.png Graphic file (type png)
- <use 45grados.png>
-Package pdftex.def Info: 45grados.png used on input line 231.
-(pdftex.def)             Requested size: 307.14987pt x 201.45418pt.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.232 \end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.232 \end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.232 \end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.237 \begin{center}
+l.243 \begin{center}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -627,7 +636,62 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.237 \begin{center}
+l.243 \begin{center}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<45grados.JPG, id=31, 752.8125pt x 517.18219pt>
+File: 45grados.JPG Graphic file (type jpg)
+ <use 45grados.JPG>
+Package pdftex.def Info: 45grados.JPG used on input line 244.
+(pdftex.def)             Requested size: 301.11966pt x 206.8692pt.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.245 \end{center}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.245 \end{center}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.245 \end{center}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[7 <./30grados.JPG>]
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.250 \begin{center}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -639,16 +703,28 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.237 \begin{center}
+l.250 \begin{center}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<60grados.png, id=30, 1037.8775pt x 702.625pt>
-File: 60grados.png Graphic file (type png)
- <use 60grados.png>
-Package pdftex.def Info: 60grados.png used on input line 238.
-(pdftex.def)             Requested size: 311.36566pt x 210.78912pt.
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.250 \begin{center}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<60grados.JPG, id=37, 752.0597pt x 507.39563pt>
+File: 60grados.JPG Graphic file (type jpg)
+ <use 60grados.JPG>
+Package pdftex.def Info: 60grados.JPG used on input line 251.
+(pdftex.def)             Requested size: 300.81854pt x 202.95465pt.
 
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
@@ -657,7 +733,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.239 \end{center}
+l.252 \end{center}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -669,7 +745,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.239 \end{center}
+l.252 \end{center}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -681,62 +757,62 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.239 \end{center}
+l.252 \end{center}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[6 <./30grados.png> <./45grados.png>] [7 <./60grados.png>]
-<30gradossf.png, id=42, 481.8pt x 361.35pt>
-File: 30gradossf.png Graphic file (type png)
- <use 30gradossf.png>
-Package pdftex.def Info: 30gradossf.png used on input line 256.
+[8 <./45grados.JPG> <./60grados.JPG>]
+<30gradosnf.png, id=41, 481.8pt x 361.35pt>
+File: 30gradosnf.png Graphic file (type png)
+ <use 30gradosnf.png>
+Package pdftex.def Info: 30gradosnf.png used on input line 269.
 (pdftex.def)             Requested size: 240.8994pt x 180.67456pt.
 
-<30gradoscf.png, id=43, 481.8pt x 361.35pt>
+<30gradoscf.png, id=42, 481.8pt x 361.35pt>
 File: 30gradoscf.png Graphic file (type png)
  <use 30gradoscf.png>
-Package pdftex.def Info: 30gradoscf.png used on input line 261.
+Package pdftex.def Info: 30gradoscf.png used on input line 274.
 (pdftex.def)             Requested size: 240.8994pt x 180.67456pt.
 
-<45gradossf.png, id=44, 481.8pt x 361.35pt>
-File: 45gradossf.png Graphic file (type png)
- <use 45gradossf.png>
-Package pdftex.def Info: 45gradossf.png used on input line 267.
+<45gradosnf.png, id=43, 481.8pt x 361.35pt>
+File: 45gradosnf.png Graphic file (type png)
+ <use 45gradosnf.png>
+Package pdftex.def Info: 45gradosnf.png used on input line 280.
 (pdftex.def)             Requested size: 240.8994pt x 180.67456pt.
- [8 <./30gradossf.png> <./30gradoscf.png>] <45gradoscf.png, id=50, 481.8pt x 36
+ [9 <./30gradosnf.png> <./30gradoscf.png>] <45gradoscf.png, id=49, 481.8pt x 36
 1.35pt>
 File: 45gradoscf.png Graphic file (type png)
 
 <use 45gradoscf.png>
-Package pdftex.def Info: 45gradoscf.png used on input line 272.
+Package pdftex.def Info: 45gradoscf.png used on input line 285.
 (pdftex.def)             Requested size: 240.8994pt x 180.67456pt.
- <60sf.png, id=51, 481.8pt x 361.35pt>
-File: 60sf.png Graphic file (type png)
- <use 60sf.png>
-Package pdftex.def Info: 60sf.png used on input line 278.
-(pdftex.def)             Requested size: 240.8994pt x 180.67456pt.
+ <60gradosnf.png, id=50, 481.8pt x 361.35pt>
+File: 60gradosnf.png Graphic file (type png)
 
-[9 <./45gradossf.png> <./45gradoscf.png>]
-<60gradoscf.png, id=57, 481.8pt x 361.35pt>
+<use 60gradosnf.png>
+Package pdftex.def Info: 60gradosnf.png used on input line 291.
+(pdftex.def)             Requested size: 240.8994pt x 180.67456pt.
+ [10 <./45gradosnf.png> <./45gradoscf.png>]
+<60gradoscf.png, id=56, 481.8pt x 361.35pt>
 File: 60gradoscf.png Graphic file (type png)
  <use 60gradoscf.png>
-Package pdftex.def Info: 60gradoscf.png used on input line 283.
+Package pdftex.def Info: 60gradoscf.png used on input line 296.
 (pdftex.def)             Requested size: 240.8994pt x 180.67456pt.
- [10 <./60sf.png> <./60gradoscf.png>] (./reporte6.aux
+ [11 <./60gradosnf.png> <./60gradoscf.png>] (./reporte6.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
 ) ) 
 Here is how much of TeX's memory you used:
- 2449 strings out of 494966
- 32603 string characters out of 6179560
+ 2452 strings out of 494966
+ 32663 string characters out of 6179560
  95243 words of memory out of 5000000
  5642 multiletter control sequences out of 15000+600000
  8063 words of font info for 29 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 37i,11n,26p,471b,246s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,11n,26p,471b,248s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/tex
@@ -747,10 +823,10 @@ t/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts
 public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmtt10.pfb>
-Output written on reporte6.pdf (10 pages, 496231 bytes).
+Output written on reporte6.pdf (11 pages, 541369 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
+ 95 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -19,10 +19,9 @@
 \maketitle
 \section{Introducción}
 En esta práctica, realizamos un programa en FORTRAN para calcular la posición de un objeto lazado con tiro parabólico, en ciertos instantes de tiempo, tanto en condiciones ideales, como tomando en concideracion la resistencia del aire y comparando ambos resultados.
-\space
-\space
-\space
-\space
+\\
+\\
+\\
 \section{Un poco de física}
 En nuestro estudio del movimiento de proyectiles, habitualmente despreciamos la resistencia del aire, sin embargo esta tiene un efecto apreciable en el movimiento de proyectiles.\\
 
@@ -34,125 +33,138 @@ Ahora incluyendo la resistencia del aire actuando sobre el proyectil,la $f$ sera
 
 Por la segunda ley de Newton $a_{x}=-(D/m)vv_{x}$ y $a_{y}=-g-(D/m)vv_{y}$.\\
 
-La constante D depende de la densidad del aire, asi como del area en contacto del proyectil y el coeficiente de friccion del tipo de proyectil.$D=([\rho]CA)/2$.\\
+La constante D depende de la densidad del aire, asi como del area en contacto del proyectil y el coeficiente de friccion del tipo de proyectil.$D=(\rho(CA))/2$.\\
 
-Los componentes de la aceleracion estan en constante cambio al igual que los componentes de la velocidad, pero en periodos de tiempo pequeños $[\Delta]t$.Durante el intervalo de tiempo $[\Delta]t$ $a_{x}=[\Delta]v_{x}/([\Delta]t)$ y la velocidad en x cambiar de acuerdo a $[\Delta]v_{x}=a_{x}[\Delta]t$, lo mismo pasa con los componentes en y. Llegamos a  $v_{x}+[\Delta]v_{x}=v_{x}+a_{x}[\Delta]t$ y $v_{y}+[\Delta]v_{y}=v_{y}+a_{y}[\Delta]t$.\\
+Los componentes de la aceleracion estan en constante cambio al igual que los componentes de la velocidad, pero en periodos de tiempo pequeños $\Delta(t)$.Durante el intervalo de tiempo $\Delta(t)$ $a_{x}=\Delta(v_{x})/(\Delta(t))$ y la velocidad en x cambiar de acuerdo a $\Delta(v_{x})=a_{x}\Delta(t)$, lo mismo pasa con los componentes en y. Llegamos a  $v_{x}+\Delta(v_{x})=v_{x}+a_{x}\Delta(t)$ y $v_{y}+\Delta(v_{y})=v_{y}+a_{y}\Delta(t)$.\\
 
-Mientras el proyectil se mueve sus coordenadas logicamente estan cambiando, la coordenada x cambia de la siguiente manera: $[\Delta]x=(v_{x}+[\Delta]v_{x}/2)[\Delta]t=v_{x}[\Delta]t+1/2a_{x}([\Delta]t)^2$ en el eje y es exactamente la misma expresion. Entonces las coordenadas del proyectil para el final del intervalo son: \\
+Mientras el proyectil se mueve sus coordenadas logicamente estan cambiando, la coordenada x cambia de la siguiente manera: $\Delta(x)=(v_{x}+\Delta(v_{x})/2)\Delta(t)=v_{x}\Delta(t)+1/2a_{x}(\Delta(t))^2$ en el eje y es exactamente la misma expresion. Entonces las coordenadas del proyectil para el final del intervalo son: \\
 
-$x+[\Delta]x=x+v_{x}[\Delta]t+1/2a_{x}([\Delta]t)^2$ y $y+[\Delta]y=y+v_{y}[\Delta]t+1/2a_{y}([\Delta]t)^2$\\ 
+$x+\Delta(x)=x+v_{x}\Delta(t)+1/2a_{x}(\Delta(t))^2$ y $y+\Delta(y)=y+v_{y}\Delta(t)+1/2a_{y}(\Delta(t))^2$\\ 
 
 \section{Código}
 
 El código que utilizamos para realizar el programa fue el siguiente:\\
 \begin{verbatim}  
- !Con este programa podremos calcular la posicion de un proyectil en tiro parabolico, 
-conciderando la resistencia del aire y comparalo con una situacion ideal.
-
-
-module constantes
-implicit none
-real, parameter :: rad=(4.0*ATAN(1.0))/180 !Conversion de angulos
-real, parameter :: pi=4.0*ATAN(1.0)
-integer, parameter :: npts= 2000 
-!Densidad del aire al nivel del mar
-REAL, PARAMETER :: densidad = 1.18
-Real, parameter :: cfe = 0.47
-end module constantes
+ !Con este programa podremos calcular la posicion de un proyectil en tiro parabolico, conciderando la resistencia del aire y comparalo con una situacion ideal.
 
 program tiro_resistencia
-use constantes
-implicit none 
-real :: xi, yi, vi, theta
+
+implicit none
+real, parameter :: deltat = 0.01
+real, parameter :: g = 9.81 !Valor de la gravedad
+real, parameter :: pi=4.0*ATAN(1.0)
+real, parameter :: densidad = 1.18 !Densidad del aire al nivel del mar
+real, parameter :: cfe = 0.47
+
+integer, parameter :: npts= 2000 
+
+real :: xi, yi, vi, theta, radianes
 real :: xmaxsf, ymaxsf, timesf, xmaxcf, ymaxcf, timecf
-real :: diferenciax, diferenciay
-write (*,*), 'Deme las coordenadas iniciales de x & y en m'
-read *, xi, yi
+real :: diferenciax
+write (*,*), 'Deme las coordenadas iniciales de x en m'
+read *, xi
+write (*,*), 'Deme las coordenadas iniciales de y en m'
+read *, yi
 write (*,*), 'Deme la velocidad inicial del proyectil en m/s'
 read *, vi
 write (*,*), 'Deme el angulo inicial de tiro en grados'
 read *, theta
 
-call sin_friccion (xi,yi,vi,theta,xmaxsf,ymaxsf,timesf)
-call con_friccion (xi,yi,vi,theta,xmaxcf,ymaxcf,timecf)
+radianes = (theta*pi)/180.0
+
+call sin_friccion (xi,yi,vi,radianes,xmaxsf,ymaxsf,timesf)
+call con_friccion (xi,yi,vi,radianes,xmaxcf,ymaxcf,timecf)
 
 
-diferenciax = ((xmaxsf-xmaxcf)/xmaxcf) * 100.0
-diferenciay = ((ymaxsf-ymaxcf)/ymaxcf) * 100.0
+diferenciax = 100.0-((xmaxcf*100.0)/xmaxsf)
 
 
-print *, "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+
+print *, "#####################################################"
 print *, "||En condiciones ideales||"
 print *, "Un tiro parabolico con:"
 print *, "coordenadas iniciales x=",xi,"y=",yi
 print *, "velocidad inicial", vi,"m/s"
-print *, "y un angulo de", theta, "radianes"
+print *, "y un angulo de", theta, "grados"
 print *, "durara en el aire un tiempo de:", timesf,"s"
 print *, "alcanzara una h maxima de:", ymaxsf,"m"
 print *, "tendra un alcanze maximo en el eje x de:", xmaxsf,"m"
-print *, "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+print *, "#####################################################"
 print *, "||Con resistencia del aire||"
 print *, "Un tiro parabolico con:"
 print *, "coordenadas iniciales x=",xi,"y=",yi
 print *, "velocidad inicial", vi,"m/s"
-print *, "y un angulo de", theta,"radianes"
+print *, "y un angulo de", theta,"grados"
 print *, "durara en el aire un tiempo de:", timecf,"s"
 print *, "alcanzara una h maxima de:", ymaxcf,"m"
 print *, "tendra un alcanze maximo en el eje x de", xmaxcf,"m"
-print *, "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-print *, "La diferencia porcentual en el eje x es:", diferenciax
-print *, "La diferencia porcentual en el eje y es:", diferenciay
-print *, "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+print *, "#####################################################"
+print *, "La diferencia porcentual en el eje x es:", diferenciax,"%"
+print *, "#####################################################"
 
 
 end program tiro_resistencia
 
-subroutine sin_friccion (xi,yi,vi,theta,xmaxsf,ymaxsf,timesf)
-use constantes
+
+subroutine sin_friccion (xi,yi,vi,radianes,xmaxsf,ymaxsf,timesf)
+
 implicit none
+real, parameter :: deltat = 0.01
+real, parameter :: g = 9.81 !Valor de la gravedad
+real, parameter :: pi=4.0*ATAN(1.0)
+real, parameter :: densidad = 1.18 !Densidad del aire al nivel del mar
+real, parameter :: cfe = 0.47
+
+integer, parameter :: npts= 2000 
 
 real, dimension (1:npts) :: x,y,t
-real :: xi, yi, vi, theta !Entran
-real :: xmaxsf, ymaxsf, timesf 
+real :: xi, yi, vi, radianes !Entran
+real :: xmaxsf, ymaxsf, timesf !Devuelve
 
 integer :: i
 
 
-theta=theta*rad !Convirtiendo grados a radianes
-
-xmaxsf = xi+((vi*vi*sin(2*theta))/(9.8))
-ymaxsf = yi+(((vi*vi)*(sin(theta)*sin(theta)))/(19.6))
-timesf = (2*vi*sin(theta))/(9.8)
+xmaxsf = xi+((vi*vi*sin(2*radianes))/(g))
+ymaxsf = yi+(((vi*vi)*(sin(radianes)*sin(radianes)))/(2*g))
+timesf = (2*vi*sin(radianes))/(g)
 
 !Registramos los datos calculados
 open (1, file="sin_friccion.dat")
 
 !Calculando la posicion para cada t(i)
-do i=1, npts, 1
-t(i)=float(i)*0.01
-x(i) = xi + (vi*cos(theta)*t(i))
-y(i) = yi + (vi*sin(theta)*t(i)) - (4.9*t(i)*t(i))
+do i=1, npts
+t(i)=float(i)*deltat
+x(i) = xi + (vi*cos(radianes)*t(i))
+y(i) = yi + (vi*sin(radianes)*t(i)) - ((0.5*g)*t(i)*t(i))
 
 !Registrando resultados
-write (1,1001) x(i), y(i)
-1001 format (f11.5,f11.5)
+write (1,*) x(i), y(i)
 if (y(i)<0) exit
 end do
 
 CLOSE (1)
 end subroutine sin_friccion
 
+!#####################################################################
 
-subroutine con_friccion (xi,yi,vi,theta,xmaxcf,ymaxcf,timecf)
-use constantes
+subroutine con_friccion (xi,yi,vi,radianes,xmaxcf,ymaxcf,timecf)
 
 implicit none
+
+real, parameter :: deltat = 0.01
+real, parameter :: g = 9.81 !Valor de la gravedad
+real, parameter :: pi=4.0*ATAN(1.0)
+real, parameter :: densidad = 1.18 !Densidad del aire al nivel del mar
+real, parameter :: cfe = 0.47
+
 integer :: i 
 
-real, DIMENSION (0:npts) :: p,w,u,velp,velw,ap,aw 
-real :: xi, yi, vi, theta !Entrada
-REAL :: xmaxcf, ymaxcf, timecf !Salida
-REAL :: D, area, radio,masa !D representa una constate que depende del area, 
+integer, parameter :: npts= 2000 
+
+real, dimension (0:npts) :: xx,yy,tt,velxx,velyy,axx,ayy 
+real :: xi, yi, vi, radianes !Entrada
+real :: xmaxcf, ymaxcf, timecf !Salida
+real :: D, area, radio,masa !D representa una constate que depende del area, 
 !el coeficiente y la densidad
 
 print *, "Deme la masa de la esfera en kg"
@@ -165,52 +177,53 @@ read *, radio
 area = pi*radio*radio
 
 
-!Definiendo condiciones iniciales
-p(0) = xi
-w(0) = yi
 
-velp(0) = vi*cos(theta)
-velw(0) = vi*sin(theta)
+!Definiendo condiciones iniciales
+xx(0) = xi
+yy(0) = yi
+
+velxx(0) = vi*cos(radianes)
+velyy(0) = vi*sin(radianes)
 
 D = (0.5*densidad*area*cfe)
 
-ap(0) = -(D/masa)*velp(0)*velp(0)
-aw(0) = 9.8-(D/masa)*velw(0)*velw(0)
+axx(0) = -(D/masa)*(sqrt((velxx(0)*velxx(0))+(velyy(0)*velyy(0))))*velxx(0)
+ayy(0) = -g-(D/masa)*(sqrt((velxx(0)*velxx(0))+(velyy(0)*velyy(0))))*velyy(0)
 
-u(0) = 0
+tt(0) = 0
 !Abriendo archivo.dat 
 open (2, file="con_friccion.dat")
 
 !Registrando valores iniciales
-write(2,1001) p(0),w(0)
-1001 format (f11.5,f11.5)
+write(2,*) xx(0),yy(0)
 
 
-!Calculando posicion para cada t(i)
-do i=0, npts, 1
 
-u(i+1) = u(i) + 0.01
+!Calculando velocidad, aceleracion y posicion para cada t(i)
+do i=0, npts
 
-velp(i+1) = velp(i)+ap(i)*u(i+1) 
-velw(i+1) = velw(i)+aw(i)*u(i+1)
+tt(i+1) = tt(i) + deltat
 
-ap(i+1) = -(D/masa)*velp(i)*velp(i)
-aw(i+1) = -9.8-(D/masa)*velp(i)*velp(i)
+velxx(i+1) = velxx(i)+axx(i)*tt(i+1) 
+velyy(i+1) = velyy(i)+ayy(i)*tt(i+1)
 
-p(i+1) = p(i)+velp(i)*u(i+1)+(0.5*ap(i)*u(i+1)*u(i+1))
-w(i+1) = w(i)+velw(i)*u(i+1)+(0.5*aw(i)*u(i+1)*u(i+1))
+axx(i+1) = -(D/masa)*(sqrt((velxx(i)*velxx(i))+(velyy(i)+velyy(i))))*velxx(i)
+ayy(i+1) = -g-(D/masa)*(sqrt((velxx(i)*velxx(i))+(velyy(i)+velyy(i))))*velyy(i)
 
-!Resgistrando valores 
-write (2,*) p(i+1), w(i+1)
-if (w(i)<0) exit
+xx(i+1) = xx(i)+velxx(i)*tt(i+1)+(0.5*axx(i)*tt(i+1)*tt(i+1))
+yy(i+1) = yy(i)+velyy(i)*tt(i+1)+(0.5*ayy(i)*tt(i+1)*tt(i+1))
+
+!Registrando valores 
+write (2,*) xx(i+1), yy(i+1)
+if (yy(i+1)<0) exit
 end do
 
 close (2)
-xmaxcf = p(i)
-ymaxcf = MAXVAL(w)
-timecf = u(i)*10.0
-end subroutine con_friccion
+xmaxcf = xx(i)!El alcanze en x 
+ymaxcf = MAXVAL(yy) !EL alcanze en y
+timecf = tt(i)*10.0 !El tiempo esta en s/10, por eso lo multiplicamos por 10
 
+end subroutine con_friccion
 
 \end{verbatim} 
 
@@ -221,21 +234,21 @@ Cabe denotar que en el código se cambia la salida estándar de los datos de pos
 \subsubsection{30 grados}
 \begin{tabular}{c}
 \begin{center}
-   \includegraphics[scale=0.3]{30grados.png}
+   \includegraphics[scale=0.4]{30grados.JPG}
 \end{center}
 \end{tabular}
 
 \subsubsection{45 grados}
 \begin{tabular}{c}
 \begin{center}
-   \includegraphics[scale=0.3]{45grados.png}
+   \includegraphics[scale=0.4]{45grados.JPG}
 \end{center}
 \end{tabular}
 
 \subsubsection{60 grados}
 \begin{tabular}{c}
 \begin{center}
-   \includegraphics[scale=0.3]{60grados.png}
+   \includegraphics[scale=0.4]{60grados.JPG}
 \end{center}
 \end{tabular}
 
@@ -253,7 +266,7 @@ Obteniendo el siguiente resultado para cada ángulo de prueba;
 
 \subsection{30 grados sin fricción}
 \begin{center}
-   \includegraphics[scale=0.5]{30gradossf.png}
+   \includegraphics[scale=0.5]{30gradosnf.png}
 \end{center}
 
 \subsection{30 grados con fricción}
@@ -264,7 +277,7 @@ Obteniendo el siguiente resultado para cada ángulo de prueba;
 
 \subsection{45 grados sin fricción}
 \begin{center}
-   \includegraphics[scale=0.5]{45gradossf.png}
+   \includegraphics[scale=0.5]{45gradosnf.png}
 \end{center}
 
 \subsection{45 grados con fricción}
@@ -275,7 +288,7 @@ Obteniendo el siguiente resultado para cada ángulo de prueba;
 
 \subsection{60 grados sin fricción}
 \begin{center}
-   \includegraphics[scale=0.5]{60sf.png}
+   \includegraphics[scale=0.5]{60gradosnf.png}
 \end{center}
 
 \subsection{60 grados con fricción}
