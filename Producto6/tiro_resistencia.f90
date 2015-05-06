@@ -14,7 +14,7 @@ end module constantes
 program tiro_resistencia
 use constantes
 implicit none 
-real :: xi, yi, vi, theta
+real :: xi, yi, vi, thetag, theta
 real :: xmaxsf, ymaxsf, timesf, xmaxcf, ymaxcf, timecf
 real :: diferenciax, diferenciay
 write (*,*), 'Deme las coordenadas iniciales de x & y en m'
@@ -22,10 +22,10 @@ read *, xi, yi
 write (*,*), 'Deme la velocidad inicial del proyectil en m/s'
 read *, vi
 write (*,*), 'Deme el angulo inicial de tiro en grados'
-read *, theta
+read *, thetag
 
-call sin_friccion (xi,yi,vi,theta,xmaxsf,ymaxsf,timesf)
-call con_friccion (xi,yi,vi,theta,xmaxcf,ymaxcf,timecf)
+call sin_friccion (xi,yi,vi,thetag,xmaxsf,ymaxsf,timesf)
+call con_friccion (xi,yi,vi,thetag,xmaxcf,ymaxcf,timecf)
 
 
 diferenciax = ((xmaxsf-xmaxcf)/xmaxcf) * 100.0
@@ -59,25 +59,25 @@ print *, "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 end program tiro_resistencia
 
 
-subroutine sin_friccion (xi,yi,vi,theta,xmaxsf,ymaxsf,timesf)
+subroutine sin_friccion (xi,yi,vi,thetag,xmaxsf,ymaxsf,timesf)
 use constantes
 implicit none
 
 real, dimension (1:npts) :: x,y,t
-real :: xi, yi, vi, theta !Entran
+real :: xi, yi, vi, theta, thetag !Entran
 real :: xmaxsf, ymaxsf, timesf 
 
 integer :: i
 
 
-theta=theta*rad !Convirtiendo grados a radianes
+theta=thetag*rad !Convirtiendo grados a radianes
 
 xmaxsf = xi+((vi*vi*sin(2*theta))/(9.8))
 ymaxsf = yi+(((vi*vi)*(sin(theta)*sin(theta)))/(19.6))
 timesf = (2*vi*sin(theta))/(9.8)
 
 !Registramos los datos calculados
-open (1, file="sin_friccion.dat")
+open (11, file="sin_friccion.dat")
 
 !Calculando la posicion para cada t(i)
 do i=1, npts, 1
@@ -86,24 +86,25 @@ x(i) = xi + (vi*cos(theta)*t(i))
 y(i) = yi + (vi*sin(theta)*t(i)) - (4.9*t(i)*t(i))
 
 !Registrando resultados
-write (1,1001) x(i), y(i)
+write (11,1001) x(i), y(i)
+
 1001 format (f11.5,f11.5)
 if (y(i)<0) exit
 end do
 
-CLOSE (1)
+CLOSE (11)
 end subroutine sin_friccion
 
 
 
-subroutine con_friccion (xi,yi,vi,theta,xmaxcf,ymaxcf,timecf)
+subroutine con_friccion (xi,yi,vi,thetag,xmaxcf,ymaxcf,timecf)
 use constantes
 
 implicit none
 integer :: i 
 
 real, DIMENSION (0:npts) :: p,w,u,velp,velw,ap,aw 
-real :: xi, yi, vi, theta !Entrada
+real :: xi, yi, vi, theta, thetag !Entrada
 REAL :: xmaxcf, ymaxcf, timecf !Salida
 REAL :: D, area, radio,masa !D representa una constate que depende del area, 
 !el coeficiente y la densidad
@@ -129,14 +130,14 @@ velw(0) = vi*sin(theta)
 D = (0.5*densidad*area*cfe)
 
 ap(0) = -(D/masa)*velp(0)*velp(0)
-aw(0) = 9.8-(D/masa)*velw(0)*velw(0)
+aw(0) = -9.8-(D/masa)*velw(0)*velw(0)
 
 u(0) = 0
 !Abriendo archivo.dat 
-open (2, file="con_friccion.dat")
+open (12, file="con_friccion.dat")
 
 !Registrando valores iniciales
-write(2,1001) p(0),w(0)
+write(12,*) p(0),w(0)
 1001 format (f11.5,f11.5)
 
 
@@ -148,22 +149,25 @@ u(i+1) = u(i) + 0.01
 velp(i+1) = velp(i)+ap(i)*u(i+1) 
 velw(i+1) = velw(i)+aw(i)*u(i+1)
 
-ap(i+1) = -(D/masa)*velp(i)*velp(i)
-aw(i+1) = -9.8-(D/masa)*velp(i)*velp(i)
+ap(i+1) = -(D/masa)*velp(i)*sqrt(velp(i)*velp(i)+velw(i)*velw(i))
+aw(i+1) = -9.8-(D/masa)*velw(i)*sqrt(velp(i)*velp(i)+velw(i)*velw(i))
 
 p(i+1) = p(i)+velp(i)*u(i+1)+(0.5*ap(i)*u(i+1)*u(i+1))
 w(i+1) = w(i)+velw(i)*u(i+1)+(0.5*aw(i)*u(i+1)*u(i+1))
+timecf = u(i+1)
 
 !Resgistrando valores 
-write (2,*) p(i+1), w(i+1)
-if (w(i)<0) exit
+write (12,*) u(i+1), p(i+1), w(i+1)
+!if (w(i+1)<0)  xmaxcf = p(i+1)
+!exit
+
 end do
 
 
-close (2)
-xmaxcf = p(i)
+close (12)
+
 ymaxcf = MAXVAL(w)
-timecf = u(i)*10.0
+
 end subroutine con_friccion
 
 
