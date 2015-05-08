@@ -1,5 +1,0 @@
-set title "Tiro prabolico"
-set xlabel "Time (s)"
-set ylabel "Alcanze"
-set grid
-plot "tiro.dat" title ""

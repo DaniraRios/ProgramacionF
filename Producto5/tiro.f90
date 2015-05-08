@@ -38,7 +38,7 @@ ymax = yi+(((vi*vi)*(sin(radianes)*sin(radianes)))/(2*g))
 tiempo = (2*vi*sin(radianes))/(g)
 
 !Registramos los datos calculados
-open (1, file="sin_friccion.dat")
+open (1, file="tiro.dat")
 
 !Calculando la posicion para cada t(i)
 do i=1, npts
