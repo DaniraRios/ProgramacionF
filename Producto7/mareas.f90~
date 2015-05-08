@@ -8,23 +8,60 @@ IMPLICIT NONE
 
 INTEGER :: OpenStatus, InputStatus
 CHARACTER(20) :: FileName
-REAL ::  Hora, Nivel, Numero
+integer, parameter :: datos=7674, mes=1344, dias=48
+real :: p, t, d, mx, im, maximo, minimo, dia, minm
+real, dimension(datos)::B, altura, tiempo, tiem, maxm
+integer :: i
 
 WRITE (*, '(1X, A)', ADVANCE = "NO") "Enter name of the data file:"
 READ *, FileName
 OPEN (UNIT= 12, FILE = FileName, STATUS = "OLD", ACTION = "READ", POSITION = "REWIND",  IOSTAT = OpenStatus)
 IF (Openstatus > 0) STOP "***Cannot open the file***"
 
-READ (UNIT = 12, IOSTAT = InputStatus)Hora, Nivel, Numero
-IF (Openstatus > 0) STOP "***Input error***"
 
 
+do i=1, datos, 1
+read (12,*) B(i), p, t, altura(i), d, tiempo(i)
+!write (*,*) B(i),p, t, altura(i), d, tiempo(i)
+end do
+close (12)
+open(unit=12, file='Mareas.csv', status='old')
+open(unit = 13, file='maximos.csv', status='unknown')
+mx=0
+do i=1, datos
+read (12,*) B(i), p, t, altura(i), d, tiempo(i)
+if(altura(i).gt.mx) then
+mx = altura(i)
+im = tiempo(i)
+end if
+end do
+write(13,*) mx, im
+close(13)
+close(12)
+print * , 'nivel de marea maxima', mx, 'metros'
+print * , 'tiempo de marea maxima', im
+open(unit=12, file='Mareas.csv', status='old')
+open(14, file='maxymin.csv',status='unknown')
+do i=1,datos
+read (12,*) B(i), p, t, altura(i), d, tiempo(i)
+minimo = minval(altura,1)
+dia = tiempo(i)
+end do
+write(14,*) dia, minimo
+write(*,*) dia, minimo
+close(14)
+close(12)
+open(unit=12, file='Mareas.csv', status='old')
+open(15, file='max2.csv',status='unknown')
+maxm=mx
+do i=1, datos
+read (12,*) B(i), p, t, altura(i), d, tiempo(i)
+end do
+write(15,*) maxm
+write(*,*) maxm
+close(15)
+close(12)
 
-OPEN (UNIT = 13, FILE = "Formato", STATUS = "NEW", ACTION = "WRITE", IOSTAT = OpenStatus)
-
-WRITE (13, '(1X, F4.4 )') Numero, Nivel
-
-CLOSE (13)
 
 END PROGRAM Mareas
 
